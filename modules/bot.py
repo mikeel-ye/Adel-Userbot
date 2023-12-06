@@ -62,18 +62,18 @@ alive_txt = """
 in_alive = "<b>Reza-ubot</b>\n<b>     status :</b> <code>{}</code>{}\n<b>       expired_on :</b> <code>{}</code>\n<b>       dc_id :</b> <code>{}</code>\n<b>       ping_dc :</b> <code>{} ms</code>\n<b>       version :</b> <code>{}</code>\n<b>       assistant :</b> <code>{}</code>\n<b>       uptime :</b> <code>{}</code>"
 
 absen = [
-    "**Hadir Sayang** 😳",u
+    "**Hadir Sayang**",
 ]
 
 
-@register(incoming=True, from_users=DEVS, pattern=r"absen")
+@register(incoming=True, from_users=DEVS, pattern=r"^Absen$")
 async def kynanabsen(ganteng):
     await ganteng.reply(choice(absen))
 
 
-@register(incoming=True, from_users=DEVS, pattern=r"reza")
+@register(incoming=True, from_users=DEVS, pattern=r"^Kynan")
 async def naya(naya):
-    await naya.reply("**need counter**")
+    await naya.reply("**Kynan Punya Nya Naya**🤩")
 
 
 
@@ -95,7 +95,7 @@ async def lol(
             entity, Chat
         ):
             groups += 1
-    status1 = "<b>[founder]</b>" if ayra.sender_id in DEVS else "<b>[buyer]</b>"
+    status1 = "<b>[founder]</b>" if ayra.sender_id in DEVS else "<b>[owner]</b>"
     remaining_days = None
     start = time.time()
     await ayra.client(PingRequest(ping_id=0))
@@ -262,7 +262,7 @@ async def _(event):
             code=code,
             backgroundColor=choice(ATRA_COL),
         )
-        await event.reply("**Reza Logs.**", file=file)
+        await event.reply("**Key Logs.**", file=file)
     elif opt == "open":
         with open("ayra.log", "r") as f:
             file = f.read()[-4000:]
@@ -278,7 +278,7 @@ async def inline_alive(
 ):
     pic = udB.get_key("ALIVE_PIC")
     remaining_days = None
-    status1 = "<b>[founder]</b>" if event.sender_id in DEVS else "<b>[buyer]</b>"
+    status1 = "<b>[founder]</b>" if event.sender_id in DEVS else "<b>[owner]</b>"
     remaining_days = None
     status = "premium"
     start = time.time()
