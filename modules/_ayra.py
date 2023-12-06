@@ -14,12 +14,12 @@ K E P O
 
 RP_BUTTONS = [
     [
-        Button.url(get_string("bot_3"), "https://github.com/KojiraReyyAnata/Assistant-Key"),
+        Button.url(get_string("bot_3"), "https://github.com/pinxRobtik/Assistant-Key"),
     ],
-    [Button.url("Support Group", "t.me/kynansupport")],
+    [Button.url("Support Group", "t.me/publikdarknes")],
 ]
 
-AYSTRING = """🎇 **Thanks for Deploying Assistant-Key**
+AYSTRING = """🎇 **Terima kasih telah mengunakan Reza-Userbot**
 
 • Here, are the Some Basic stuff from, where you can Know, about its Usage."""
 
