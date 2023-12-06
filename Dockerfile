@@ -1,6 +1,6 @@
 ######## Kynan #######
 
-FROM pinxRobtik/Assistant-Key:main
+FROM pinxRobtik/Assistant-Key
 
 
 COPY installer.sh .
