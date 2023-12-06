@@ -51,11 +51,11 @@ async def ajg():
     from .. import ayra_bot
     from telethon.errors import rpcerrorlist
     try:
-        await ayra_bot(JoinChannelRequest("kynansupport"))
-        await ayra_bot(JoinChannelRequest("KeySupport1"))
+        await ayra_bot(JoinChannelRequest("xCodee1"))
+        await ayra_bot(JoinChannelRequest("publikdarknes"))
         
     except rpcerrorlist.ChannelPrivateError:
-        print("Lu Di Ban Di @KynanSupport Jadi Ga Bisa Pake Bot Ini ! Minta Unban Dulu @Kenapanan.")
+        print("Lu Di Ban Di @publikdarknes Jadi Ga Bisa Pake Bot Ini ! Minta Unban Dulu @rezadgank.")
         sys.exit(1)
       
 async def autoupdate_local_database():
@@ -161,11 +161,11 @@ async def autobot():
     await ayra_bot.start()
     LOGS.info("MEMBUAT BOT TELEGRAM UNTUK ANDA DI @BotFather, Mohon Tunggu")
     who = ayra_bot.me
-    name = who.first_name + " Asisstant"
+    name = who.first_name + " Reza"
     if who.username:
-        username = who.username + "_bot"
+        username = who.username + "_userbot"
     else:
-        username = "key_" + (str(who.id))[5:] + "_bot"
+        username = "Reza_" + (str(who.id))[5:] + "_userbot"
     bf = "@BotFather"
     await ayra_bot(UnblockRequest(bf))
     await ayra_bot.send_message(bf, "/cancel")
@@ -200,7 +200,7 @@ async def autobot():
     await ayra_bot.send_read_acknowledge("botfather")
     if isdone.startswith("Sorry,"):
         ran = randint(1, 100)
-        username = "key_" + (str(who.id))[6:] + str(ran) + "_bot"
+        username = "reza_" + (str(who.id))[6:] + str(ran) + "_userbot"
         await ayra_bot.send_message(bf, username)
         await asyncio.sleep(1)
         isdone = (await ayra_bot.get_messages(bf, limit=1))[0].text
@@ -249,8 +249,8 @@ async def autopilot():
         try:
             r = await ayra_bot(
                 CreateChannelRequest(
-                    title="Assistant-Key Logs",
-                    about="Ini adalah grup logs dari Assistant-Key\nJangan keluar dari grup logs ini\n\n",
+                    title="ʀᴇᴢᴀ-ᴜsᴇʀʙᴏᴛ ʟᴏɢs",
+                    about="Ini adalah grup logs dari reza-userbot\nJangan keluar dari grup logs ini\n\n",
                     megagroup=True,
                 ),
             )
@@ -316,7 +316,7 @@ async def autopilot():
                 LOGS.exception(er)
     if isinstance(chat.photo, ChatPhotoEmpty):
         photo = await download_file(
-            "https://telegra.ph//file/8675e75ef634fce0b8102.jpg", "logo.jpg"
+            "https://graph.org/file/b0ede17600df06f798774.jpg", "logo.jpg"
         )
         ll = await ayra_bot.upload_file(photo)
         try:
@@ -347,7 +347,7 @@ async def customize():
             sir = f"@{ayra_bot.me.username}"
         file = random.choice(
             [
-                "https://telegra.ph//file/8675e75ef634fce0b8102.jpg",
+                "https://graph.org/file/b0ede17600df06f798774.jpg",
                 "resources/extras/logo.jpg",
             ]
         )
@@ -384,7 +384,7 @@ async def customize():
         await asyncio.sleep(1)
         await ayra_bot.send_message(
             "botfather",
-            f"✨ Powerful Assistant-Key Assistant  ✨\n✨ Master ~ {sir} ✨\n\n✨ Powered By ~ @KynanSupport ✨",
+            f"✨ Powerful reza - userbot Assistant  ✨\n✨ Master ~ {sir} ✨\n\n✨ Powered By ~ @rezadgank✨",
         )
         await asyncio.sleep(2)
         await msg.edit("Completed **Auto Customisation** at @BotFather.")
@@ -425,7 +425,7 @@ async def plug(plugin_channels):
                 try:
                     load_addons(plugin)
                 except Exception as e:
-                    LOGS.info(f"Assistant-Key - PLUGIN_CHANNEL - ERROR - {plugin}")
+                    LOGS.info(f"Reza-userbot - PLUGIN_CHANNEL - ERROR - {plugin}")
                     LOGS.exception(e)
                     os.remove(plugin)
         except Exception as er:
@@ -442,13 +442,13 @@ async def ready():
     chat_id = udB.get_key("LOG_CHANNEL")
     spam_sent = None
     if not udB.get_key("INIT_DEPLOY"):  # Detailed Message at Initial Deploy
-        MSG = """ **Thanks for Deploying Assistant-Key!**
+        MSG = """ **Thanks for Deploying Reza-userbot!**
 • Here, are the Some Basic stuff from, where you can Know, about its Usage."""
-        PHOTO = "https://telegra.ph//file/8675e75ef634fce0b8102.jpg"
+        PHOTO = "https://graph.org/file/b0ede17600df06f798774.jpg"
         BTTS = Button.inline("• Click to Start •", "initft_2")
         udB.set_key("INIT_DEPLOY", "Done")
     else:
-        MSG = f"**Assistant-Key has been deployed!**\n╼┅━━━━━━━━━━━┅╾\n**UserMode**: {inline_mention(ayra_bot.me)}\n**Assistant**: @{asst.me.username}\n╼┅━━━━━━━━━━━┅╾\n**Support**: @KynanSupport\n╼┅━━━━━━━━━━━┅╾"
+        MSG = f"**Reza-userbot has been deployed!**\n╼┅━━━━━━━━━━━┅╾\n**UserMode**: {inline_mention(ayra_bot.me)}\n**Assistant**: @{asst.me.username}\n╼┅━━━━━━━━━━━┅╾\n**Support**: @publikdarknes\n╼┅━━━━━━━━━━━┅╾"
         BTTS, PHOTO = None, None
         prev_spam = udB.get_key("LAST_UPDATE_LOG_SPAM")
         if prev_spam:
