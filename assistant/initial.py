@@ -10,12 +10,12 @@ import re
 from . import *
 
 STRINGS = {
-    1: """ **Terima Kasih Telah Deploy Assistant-Key!**
+    1: """ **Terima Kasih Telah Deploy Reza-userbot!**
 
 Beberapa Bantuan Untuk Kamu Pelajari.""",
-    2: """🎉** Tentang Assistant-Key**
+    2: """🎉** Tentang reza-userbot **
 
- Assistant-Key adalah repo userbot yanh dibuat untuk kekasih saya, userbot ini memiliki beberapa fitur kamu bisa melihat nya dihalaman 4.""",
+ rezauserbot adalah repo userbot yang dibuat untuk pengguna telegram, userbot ini memiliki beberapa fitur kamu bisa melihat nya dihalaman 4.""",
     3: """
 
 -> Kamu bisa memutar musik melalui userbot ini.
@@ -29,7 +29,7 @@ Beberapa Bantuan Untuk Kamu Pelajari.""",
 -> Kamu dapat berinteraksi dengan seseorang melali fitur chatbot
 
 **• To Know About Updates**
-  - Join @kynansupport.""",
+  - Join @publikdarkness.""",
     4: f"""**• Bantuan yang mungkin kamu ingin lihat •**
 
   - `{HNDLR}help`
