@@ -66,7 +66,7 @@ if sys.argv[0] == "-m":
             validate_session(Var.SESSION, LOGS),
             udB=udB,
             app_version=ayra_version,
-            device_model="Assistant-Key",
+            device_model="Reza-Userbot",
         )
         ayra_bot.run_in_loop(autobot())
 
@@ -89,17 +89,17 @@ if sys.argv[0] == "-m":
     _version_changes(udB)
 
     HNDLR = udB.get_key("HNDLR") or "."
-    SUDOS = udB.get_key("SUDOS") or "1054295664"
-    VC_SUDOS = udB.get_key("VC_SUDOS") or "1054295664"
+    SUDOS = udB.get_key("SUDOS") or "1087819304"
+    VC_SUDOS = udB.get_key("VC_SUDOS") or "1087819304"
     DUAL_HNDLR = udB.get_key("DUAL_HNDLR") or "/"
     SUDO_HNDLR = udB.get_key("SUDO_HNDLR") or "$"
     INLINE_PM = udB.set_key("INLINE_PM", "True")
     PMLOG = udB.set_key("PMLOG", "True")
 else:
-    print("Assistant-Key © @Pusingeaak")
+    print("Reza-userbot © @rezadgank")
 
     from logging import getLogger
 
-    LOGS = getLogger("Assistant-Key")
+    LOGS = getLogger("Reza-Userbot")
 
     ayra_bot = asst = udB = vcClient = None
