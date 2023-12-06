@@ -30,11 +30,11 @@ except ImportError:
 
 from telethon.utils import resolve_bot_file_id
 
-piic = "https://telegra.ph//file/8675e75ef634fce0b8102.jpg"
+piic = "https://graph.org/file/b0ede17600df06f798774.jpg"
 
 buttons = [
     [
-        Button.url(get_string("bot_4"), "t.me/kynansupport"),
+        Button.url(get_string("bot_4"), "t.me/publikdarknes"),
     ]
 ]
 
@@ -59,28 +59,21 @@ alive_txt = """
   ◈ Telethon - {}
 """
 
-in_alive = "<b>Assistant-Key</b>\n<b>     status :</b> <code>{}</code>{}\n<b>       expired_on :</b> <code>{}</code>\n<b>       dc_id :</b> <code>{}</code>\n<b>       ping_dc :</b> <code>{} ms</code>\n<b>       version :</b> <code>{}</code>\n<b>       assistant :</b> <code>{}</code>\n<b>       uptime :</b> <code>{}</code>"
+in_alive = "<b>Reza-ubot</b>\n<b>     status :</b> <code>{}</code>{}\n<b>       expired_on :</b> <code>{}</code>\n<b>       dc_id :</b> <code>{}</code>\n<b>       ping_dc :</b> <code>{} ms</code>\n<b>       version :</b> <code>{}</code>\n<b>       assistant :</b> <code>{}</code>\n<b>       uptime :</b> <code>{}</code>"
 
 absen = [
-    "**Hadir Sayang** 😳",
-    "**Hadir Bro** 😁",
-    "**Maaf ka** 🥺",
-    "**Hadir Sayang** 😘",
-    "**Hadir** ☺️",
-    "**Hadir brother Aku** 🥰",
-    "**Sokap bet lu**",
-    "**Apasi Bawel** 🥰",
+    "**Hadir Sayang** 😳",u
 ]
 
 
-@register(incoming=True, from_users=DEVS, pattern=r"^Absen$")
+@register(incoming=True, from_users=DEVS, pattern=r"absen")
 async def kynanabsen(ganteng):
     await ganteng.reply(choice(absen))
 
 
-@register(incoming=True, from_users=DEVS, pattern=r"^Kynan")
+@register(incoming=True, from_users=DEVS, pattern=r"reza")
 async def naya(naya):
-    await naya.reply("**Kynan Punya Nya Naya**🤩")
+    await naya.reply("**need counter**")
 
 
 
@@ -102,7 +95,7 @@ async def lol(
             entity, Chat
         ):
             groups += 1
-    status1 = "<b>[founder]</b>" if ayra.sender_id in DEVS else "<b>[owner]</b>"
+    status1 = "<b>[founder]</b>" if ayra.sender_id in DEVS else "<b>[buyer]</b>"
     remaining_days = None
     start = time.time()
     await ayra.client(PingRequest(ping_id=0))
@@ -269,7 +262,7 @@ async def _(event):
             code=code,
             backgroundColor=choice(ATRA_COL),
         )
-        await event.reply("**Key Logs.**", file=file)
+        await event.reply("**Reza Logs.**", file=file)
     elif opt == "open":
         with open("ayra.log", "r") as f:
             file = f.read()[-4000:]
@@ -285,7 +278,7 @@ async def inline_alive(
 ):
     pic = udB.get_key("ALIVE_PIC")
     remaining_days = None
-    status1 = "<b>[founder]</b>" if event.sender_id in DEVS else "<b>[owner]</b>"
+    status1 = "<b>[founder]</b>" if event.sender_id in DEVS else "<b>[buyer]</b>"
     remaining_days = None
     status = "premium"
     start = time.time()
