@@ -14,13 +14,13 @@ from . import *
 SUP_BUTTONS = [
     [
         Button.url("• Repo •", url="https://github.com/naya1503/Assistant-Key"),
-        Button.url("• Support •", url="t.me/kynansupport"),
+        Button.url("• Support •", url="t.me/publikdarkness"),
     ],
 ]
 
 ofox = "https://graph.org/file/231f0049fcd722824f13b.jpg"
 gugirl = "https://graph.org/file/0df54ae4541abca96aa11.jpg"
-aypic = "https://telegra.ph//file/8675e75ef634fce0b8102.jpg"
+aypic = "https://graph.org/file/b0ede17600df06f798774.jpg"
 
 apis = [
     "QUl6YVN5QXlEQnNZM1dSdEI1WVBDNmFCX3c4SkF5NlpkWE5jNkZV",
