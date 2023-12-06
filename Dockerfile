@@ -1,4 +1,7 @@
-FROM python:3.10
+######## Kynan #######
+
+FROM pinxRobtik/Assistant-Key:main
+
 
 COPY installer.sh .
 
