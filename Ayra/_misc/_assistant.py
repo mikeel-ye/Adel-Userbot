@@ -21,7 +21,7 @@ from . import append_or_update, owner_and_sudos
 OWNER = ayra_bot.full_name
 
 MSG = f"""
-**Assistant-Key**
+**Reza-ubot**
 ╼┅━━━━━━━━━━╍━━━━━━━━━━┅╾
 **Owner**: [{OWNER}](tg://user?id={ayra_bot.uid})
 ╼┅━━━━━━━━━━╍━━━━━━━━━━┅╾
@@ -31,9 +31,9 @@ IN_BTTS = [
     [
         Button.url(
             "Repository",
-            url="https://github.com/KojiraReyyAnata/Assistant-Key",
+            url="https://github.com/pinxRobtik/Assistant-Key",
         ),
-        Button.url("Support", url="https://t.me/kynansupport"),
+        Button.url("Support", url="https://t.me/publikdarknes"),
     ]
 ]
 
