@@ -1,9 +1,3 @@
-
-## Repo Stats
-
-[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=pinxRobtik&repo=github-readme-stats)](https://github.com/pinxRobtik/reza-userbot)
-
-
 <p align="center">
   <img src="./resources/extras/logo.jpg" alt="Reza Logo">
 </p>
@@ -20,6 +14,7 @@
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-Yes-blue)](https://GitHub.com/pinxRobtik/reza-userbot/graphs/commit-activity)
 [![CodeQuality](https://img.shields.io/codacy/grade/a723cb464d5a4d25be3152b5d71de82d?color=blue&logo=codacy)](https://app.codacy.com/gh/pinxRobtik/reza-userbot/dashboard)
 [![CodeFactor](https://www.codefactor.io/repository/github/teamultroid/ultroid/badge/main)](https://www.codefactor.io/repository/github/teamultroid/ultroid/overview/main)
+![Repo Size](https://img.shields.io/github/repo-size/pinxRobtik/reza-userbot?&style=flat-square&logo=github)
 
 ----
 
