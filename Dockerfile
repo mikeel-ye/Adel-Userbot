@@ -8,4 +8,4 @@ RUN bash installer.sh
 WORKDIR "/root/pinxRobtik"
 
 # start the bot.
-CMD ["bash", "start"]
+CMD ["bash","start"]
