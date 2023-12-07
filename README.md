@@ -1,7 +1,7 @@
 
 ## Repo Stats
 
-![github card](https://github-readme-stats.vercel.app/api/pin/?username=pinxRobtik&repo=reza-userbot&theme=dark)
+[![github card](https://github-readme-stats.vercel.app/api/pin/?username=pinxRobtik&repo=reza-userbot&theme=dark)
 
 
 <p align="center">
