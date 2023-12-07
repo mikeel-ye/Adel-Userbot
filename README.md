@@ -14,7 +14,7 @@
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-Yes-blue)](https://GitHub.com/pinxRobtik/reza-userbot/graphs/commit-activity)
 [![CodeQuality](https://img.shields.io/codacy/grade/a723cb464d5a4d25be3152b5d71de82d?color=blue&logo=codacy)](https://app.codacy.com/gh/pinxRobtik/reza-userbot/dashboard)
 [![CodeFactor](https://www.codefactor.io/repository/github/teamultroid/ultroid/badge/main)](https://www.codefactor.io/repository/github/teamultroid/ultroid/overview/main)
-![Repo Size](https://img.shields.io/github/repo-size/pinxRobtik/reza-userbot?&style=flat-square&logo=github)
+<a href="https://github.com/pinxRobtik/reza-userbot/commits"> <img src="https://img.shields.io/github/last-commit/pinxRobtik/reza-userbot?color=red&logo=github&logoColor=blue&style=for-the-badge" /></a>
 
 ----
 
