@@ -22,10 +22,4 @@ Saya tidak akan bertanggung jawab atas apa pun jika terjadi penyalah gunaan pada
 dan harus di cermati berani memakai berani menanggung resiko. 
 ```
 
-# DATABASE REQUIRETMENTS CHOOSE ONE :
-- MONGODB
-- REDIS
-
 ![Redis](https://img.shields.io/badge/redis-%23DD0031.svg?style=for-the-badge&logo=redis&logoColor=white)
-
-- Go To [Redis.com](Https://redis.com)
