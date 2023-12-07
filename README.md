@@ -7,7 +7,7 @@
 
 <b>A stable pluggable Telegram userbot + Voice & Video Call music bot, based on Telethon and Pyrogram</b>
 
-
+[![](https://img.shields.io/badge/rezauserbot-v0.1-crimson)](#)
 [![Open Source Love](https://badges.frapsoft.com/os/v2/open-source.png?v=103)](https://github.com/pinxRobtik/reza-userbot)
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-Yes-blue)](https://GitHub.com/pinxRobtik/reza-userbot/graphs/commit-activity)
 [![CodeQuality](https://img.shields.io/codacy/grade/a723cb464d5a4d25be3152b5d71de82d?color=blue&logo=codacy)](https://app.codacy.com/gh/pinxRobtik/reza-userbot/dashboard)
