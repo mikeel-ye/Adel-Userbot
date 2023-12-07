@@ -5,7 +5,7 @@
   <b>ʀᴇᴢᴀ ꭙ ᴜsᴇʀʙᴏᴛ​</b>
 </h1>
 
-<b>A stable pluggable Telegram userbot + Voice & Video Call music bot, based on Telethon and Pyrogram</b>
+<b>Userbot Telegram + Dan Obrolan  Suara yang stabil dan dapat dipakai, menggunakan Telethon dan Pyrogram</b>
 
 [![](https://img.shields.io/badge/rezauserbot-v0.1-crimson)](#)
 [![Open Source Love](https://badges.frapsoft.com/os/v2/open-source.png?v=103)](https://github.com/pinxRobtik/reza-userbot)
@@ -21,8 +21,10 @@ Saya tidak akan bertanggung jawab atas apa pun jika terjadi penyalah gunaan pada
 dan harus di cermati berani memakai berani menanggung resiko. 
 ```
 ----
-```
-DATABASE
-```
+
+<b>DATABASE</b>
+
 
 ![Redis](https://img.shields.io/badge/redis-%23DD0031.svg?style=for-the-badge&logo=redis&logoColor=white)
+
+----
