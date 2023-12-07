@@ -270,11 +270,11 @@ def page_num(index, key):
         new_.append(
             [
                 Button.inline(
-                    "❮",
+                    "◁",
                     data=f"uh_{key}_{index-1}",
                 ),
                 Button.inline(
-                    "❯",
+                    "▷",
                     data=f"uh_{key}_{index+1}",
                 ),
             ]
