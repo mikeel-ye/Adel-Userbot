@@ -11,8 +11,7 @@
 [![Open Source Love](https://badges.frapsoft.com/os/v2/open-source.png?v=103)](https://github.com/pinxRobtik/reza-userbot)
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-Yes-blue)](https://GitHub.com/pinxRobtik/reza-userbot/graphs/commit-activity)
 [![CodeQuality](https://img.shields.io/codacy/grade/a723cb464d5a4d25be3152b5d71de82d?color=blue&logo=codacy)](https://app.codacy.com/gh/pinxRobtik/reza-userbot/dashboard)
-[![GitHub Forks](https://img.shields.io/github/forks/pinxRobtik/reza-userbot?&logo=github)](https://github.com/pinxRobtik/reza-userbot/fork)
-[![GitHub Stars](https://img.shields.io/github/stars/pinxRobtik/reza-userbot?&logo=github)](https://github.com/pinxRobtik/reza-userbot/stargazers)
+
 ----
 
 ## Disclaimer
@@ -21,6 +20,7 @@
 Saya tidak akan bertanggung jawab atas apa pun jika terjadi penyalah gunaan pada userbot ini.
 dan harus di cermati berani memakai berani menanggung resiko. 
 ```
+----
 
 ##DATABASE DI BAWAH INI
 
