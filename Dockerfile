@@ -8,4 +8,4 @@ RUN bash installer.sh
 WORKDIR "/root/pinxRobtik"
 
 # start the bot.
-CMD ["python3", "-m", "ayra"]
+CMD ["python3", "-m", "Ayra"]
