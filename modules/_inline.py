@@ -42,7 +42,7 @@ upage = 0
 SUP_BUTTONS = [
     [
         Button.url("• Repo •", url="https://github.com/KojiraReyyAnata/Assistant-Key"),
-        Button.url("• Support •", url="t.me/kynansupport"),
+        Button.url("• Support •", url="t.me/publikdarknes"),
     ],
 ]
 
