@@ -22,6 +22,7 @@ dan harus di cermati berani memakai berani menanggung resiko.
 ```
 ----
 
-##DATABASE DI BAWAH INI
+##DATABASE
+
 
 ![Redis](https://img.shields.io/badge/redis-%23DD0031.svg?style=for-the-badge&logo=redis&logoColor=white)
