@@ -15,6 +15,8 @@
 [![CodeQuality](https://img.shields.io/codacy/grade/a723cb464d5a4d25be3152b5d71de82d?color=blue&logo=codacy)](https://app.codacy.com/gh/pinxRobtik/reza-userbot/dashboard)
 [![CodeFactor](https://www.codefactor.io/repository/github/teamultroid/ultroid/badge/main)](https://www.codefactor.io/repository/github/teamultroid/ultroid/overview/main)
 <a href="https://github.com/pinxRobtik/reza-userbot/commits"> <img src="https://img.shields.io/github/last-commit/pinxRobtik/reza-userbot?color=red&logo=github&logoColor=blue&style=for-the-badge" /></a>
+<img src="assets/license.svg" alt="pinxRobtik"/>
+</p>
 
 ----
 
@@ -37,7 +39,9 @@ dan harus di cermati berani memakai berani menanggung resiko.
 ----
 
  <b>DEPLOY MEMAKAI HEROKU</b>
+ 
 <a href="https://dashboard.heroku.com/new?template=https://github.com/pinxRobtik/reza-userbot"><img src="https://www.herokucdn.com/deploy/button.svg"></a>
 </div>
 
 ----
+
