@@ -14,9 +14,9 @@
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-Yes-blue)](https://GitHub.com/pinxRobtik/reza-userbot/graphs/commit-activity)
 [![CodeQuality](https://img.shields.io/codacy/grade/a723cb464d5a4d25be3152b5d71de82d?color=blue&logo=codacy)](https://app.codacy.com/gh/pinxRobtik/reza-userbot/dashboard)
 [![CodeFactor](https://www.codefactor.io/repository/github/teamultroid/ultroid/badge/main)](https://www.codefactor.io/repository/github/teamultroid/ultroid/overview/main)
-<a href="https://github.com/pinxRobtik/reza-userbot/commits"> <img src="https://img.shields.io/github/last-commit/pinxRobtik/reza-userbot?color=red&logo=github&logoColor=blue&style=for-the-badge" /></a>
-<p align="center">
+<a href="https://github.com/pinxRobtik/reza-userbot/commits"> <img src="https://img.shields.io/github/last-commit/pinxRobtik/reza-userbot?color=red&logo=github&logoColor=blue&style=for-the-badge" /></a> <p align="center">
     <a href="https://www.python.org/" alt="made-with-python"> <img src="https://img.shields.io/badge/Made%20with-Python-black.svg?style=flat-square&logo=python&logoColor=blue&color=red" /></a>
+
 
 ----
 
