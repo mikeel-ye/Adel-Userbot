@@ -36,8 +36,9 @@ dan harus di cermati berani memakai berani menanggung resiko.
 
 ----
 
-## Deploy on Heroku
-<h3 align="center">Click The Button</h3>
+ <b>DEPLOY MEMAKAI HEROKU</b>
+ 
+<h3 align="center">SILAKAN PENCET TOMBOL DI BAWAH INI</h3>
 <a href="https://dashboard.heroku.com/new?template=https://github.com/pinxRobtik/reza-userbot"><img src="https://www.herokucdn.com/deploy/button.svg"></a>
 </div>
 
