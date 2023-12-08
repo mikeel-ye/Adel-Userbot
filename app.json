@@ -1,21 +1,21 @@
 {
-    "name": "Assistant Key",
-    "description": "Assistant Key Dibuat Untuk String Telethon Dan Pyrogram Untuk ID 5 Pasti Aman.",
-    "logo": "https://telegra.ph//file/8675e75ef634fce0b8102.jpg",
+    "name": "reza-userbot",
+    "description": "reza-userbot Dibuat Untuk String Telethon dan Pyrogram userbot yang stabil dan simpel.",
+    "logo": "https://graph.org/file/b0ede17600df06f798774.jpg",
     "keywords": [
         "Telethon",
         "Pyrogram"
     ],
-    "repository": "https://github.com/KojiraReyyAnata/Assistant-Key",
-    "success_url": "https://t.me/rizzvbss",
+    "repository": "https://github.com/pinxRobtik/reza-userbot",
+    "success_url": "https://t.me/rezadgank",
     "stack": "container",
     "env": {
         "API_ID": {
-            "description": "Au ya cek my.telegram.org",
+            "description": "ambil di my.telegram.org",
             "required": true
         },
         "API_HASH": {
-            "description": "Au ya cek my.telegram.org",
+            "description": "ambil di my.telegram.org",
             "required": true
         },
         "SESSION": {
@@ -23,7 +23,7 @@
             "value": ""
         },
         "HEROKU_API": {
-            "description": "Isi Coy Jan Dikosongin.",
+            "description": "Wajib isi ya bre.",
             "required": true
         },
         "HEROKU_APP_NAME": {
