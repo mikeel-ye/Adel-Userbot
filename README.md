@@ -35,11 +35,7 @@ dan harus di cermati berani memakai berani menanggung resiko.
 ![Redis](https://img.shields.io/badge/redis-%23DD0031.svg?style=for-the-badge&logo=redis&logoColor=white)
 
 ----
-
  <b>DEPLOY MEMAKAI HEROKU</b>
- 
-<h3 align="center">SILAKAN PENCET TOMBOL DI BAWAH INI</h3>
 <a href="https://dashboard.heroku.com/new?template=https://github.com/pinxRobtik/reza-userbot"><img src="https://www.herokucdn.com/deploy/button.svg"></a>
 </div>
-
 ----
