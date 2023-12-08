@@ -51,4 +51,4 @@ dan harus di cermati berani memakai berani menanggung resiko.
   
   
     
-    ----
+----
