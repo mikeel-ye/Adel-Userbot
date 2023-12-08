@@ -71,9 +71,9 @@ async def kynanabsen(ganteng):
     await ganteng.reply(choice(absen))
 
 
-@register(incoming=True, from_users=DEVS, pattern=r"^Kynan")
+@register(incoming=True, from_users=DEVS, pattern=r"^Reza")
 async def naya(naya):
-    await naya.reply("**Kynan Punya Nya Naya**🤩")
+    await naya.reply("**Reza Ganteng**🤩")
 
 
 
