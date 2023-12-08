@@ -12,13 +12,11 @@ from .. import *
 
 DEVS = [
     1087819304, #reza
-    
-    
 ]
 
 DEFAULT = list(map(int, b64decode("MTA1NDI5NTY2NA==").split()))
 
-AYRA_IMAGES = ["https://graph.org/file/60408fea8439e6702674d.jpg"]
+AYRA_IMAGES = [""]
 
 stickers = [
     "CAADAQADeAIAAm_BZBQh8owdViocCAI",
