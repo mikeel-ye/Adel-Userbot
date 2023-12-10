@@ -62,13 +62,13 @@ alive_txt = """
 in_alive = "<b>Reza-ubot</b>\n<b>     status :</b> <code>{}</code>{}\n<b>       expired_on :</b> <code>{}</code>\n<b>       dc_id :</b> <code>{}</code>\n<b>       ping_dc :</b> <code>{} ms</code>\n<b>       version :</b> <code>{}</code>\n<b>       assistant :</b> <code>{}</code>\n<b>       uptime :</b> <code>{}</code>"
 
 absen = [
-    "**Hadir Sayang**",
+    "**nande?**",
 ]
 
 
-@register(incoming=True, from_users=DEVS, pattern=r"^Absen$")
-async def kynanabsen(ganteng):
-    await ganteng.reply(choice(absen))
+@register(incoming=True, from_users=DEVS, pattern=r"^absen$")
+async def kynanabsen(nande):
+    await nande.reply(choice(absen))
 
 
 @register(incoming=True, from_users=DEVS, pattern=r"^Reza")
