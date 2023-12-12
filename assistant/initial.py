@@ -22,7 +22,7 @@ Beberapa Bantuan Untuk Kamu Pelajari.""",
 -> Kamu bisa menggunakan chatgpt atau openai.
 -> Kamu bisa merubah teks menjadi beberapa gaya font.
 -> Kamu convert foto kamu menjadi anime.
--> Kamu bisa membalas seseorang dari Assistant-Key Logs ketika kamu di tag oleh seseorang digrup lain.
+-> Kamu bisa membalas seseorang dari reza-userbot Logs ketika kamu di tag oleh seseorang digrup lain.
 -> Kamu bisa menggunakan fitur joinvc untuk menaikkan bot ke dalam obrolan suara
 -> Userbot ini memliki fitur pmpermit inline
 -> Kamu bisa menyimpan catatan apapun dengan media gambar serta button.
