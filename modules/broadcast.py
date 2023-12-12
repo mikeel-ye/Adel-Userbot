@@ -131,7 +131,7 @@ async def gblacker(event, type_):
     chat_id = int(args[1]) if len(args) == 2 else event.chat_id
     if type_ == "add":
         add_gblacklist(chat_id)
-        await event.eor(f"**Ditambahkan ke BL-GCAST**\n`{chat_id}`")
+        await event.eor(f"**ʙᴇʀʜᴀsɪʟ ᴅɪ ᴛᴀᴍʙᴀʜ ᴋᴀɴ ᴋᴇ ᴅᴀғᴛᴀʀ ʜɪᴛᴀᴍ**\n`{chat_id}`")
     elif type_ == "remove":
         rem_gblacklist(chat_id)
         await event.eor(f"**Dihapus dari BL-GCAST**\n`{chat_id}`")
