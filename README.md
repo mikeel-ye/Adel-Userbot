@@ -33,7 +33,7 @@ dan harus di cermati berani memakai berani menanggung resiko.
 <b>DATABASE</b>
 
 
-![Redis](https://img.shields.io/badge/redis-%23DD0031.svg?style=for-the-badge&logo=redis&logoColor=white)
+![Mongo](https://img.shields.io/badge/mongo-%23DD0031.svg?style=for-the-badge&logo=mongo&logoColor=white)
 
 ----
 
