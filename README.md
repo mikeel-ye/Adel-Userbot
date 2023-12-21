@@ -33,7 +33,7 @@ dan harus di cermati berani memakai berani menanggung resiko.
 <b>DATABASE</b>
 
 
-![Mongo](https://img.shields.io/badge/mongo-%23DD0031.svg?style=for-the-badge&logo=mongo&logoColor=white)
+![Mongo-url](https://img.shields.io/badge/mongourl-%23DD0031.svg?style=for-the-badge&logo=mongourl&logoColor=white)
 
 ----
 
