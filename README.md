@@ -33,9 +33,7 @@ dan harus di cermati berani memakai berani menanggung resiko.
 <b>DATABASE</b>
 
 
-![MONGOURL](https://img.shields.io/badge/MONGOURL-%2344A833.svg?logo=mongourl&logoColor=white&style=for-the-badge)
-
-![Redis](https://img.shields.io/badge/redis-%23DD0031.svg?style=for-the-badge&logo=redis&logoColor=white)
+![MONGOURL](https://img.shields.io/badge/MONGOURL-%2344A833.svg?logo=mongourl&logoColor=white&style=for-the-badge)![Redis](https://img.shields.io/badge/redis-%23DD0031.svg?style=for-the-badge&logo=redis&logoColor=white)
 
 ----
 
