@@ -48,6 +48,9 @@ dan harus di cermati berani memakai berani menanggung resiko.
     
     
 ----
+#<b>ENGINE DEPLOY</b>
+![Debian](https://img.shields.io/badge/Debian-D70A53?style=for-the-badge&logo=debian&logoColor=white)
+----
 
 ## <b>SPESIAL THANKS</b>
 
