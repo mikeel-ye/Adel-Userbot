@@ -43,11 +43,6 @@ dan harus di cermati berani memakai berani menanggung resiko.
 
 ----
 
-<p align="center">
-    <a href="https://www.python.org/" alt="made-with-python"> <img src="https://img.shields.io/badge/Made%20with-Python-black.svg?style=flat-square&logo=python&logoColor=blue&color=red" /></a>
-    
-    
-----
 <b>ENGINE DEPLOY</b>
 
 ![Debian](https://img.shields.io/badge/Debian-D70A53?style=for-the-badge&logo=debian&logoColor=white)
@@ -65,3 +60,6 @@ dan harus di cermati berani memakai berani menanggung resiko.
 - Ray Nugraha to contributors
 ```
 ----
+
+<p align="center">
+    <a href="https://www.python.org/" alt="made-with-python"> <img src="https://img.shields.io/badge/Made%20with-Python-black.svg?style=flat-square&logo=python&logoColor=blue&color=red" /></a>
