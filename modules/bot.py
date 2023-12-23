@@ -59,7 +59,7 @@ alive_txt = """
   ◈ Telethon - {}
 """
 
-in_alive = "<b>ʀᴇᴢᴀ-ᴜsᴇʀʙᴏᴛ</b>\n<b>     sᴛᴀᴛᴜs :</b> <code>{}</code>{}\n<b>       ᴇxᴘɪʀᴇᴅ_ᴏɴ :</b> <code>{}</code>\n<b>       ᴅᴄ_ɪᴅ :</b> <code>{}</code>\n<b>       ᴘɪɴɢ_ᴅᴄ :</b> <code>{} ᴍs</code>\n<b>
+in_alive = "<b>ʀᴇᴢᴀ-ᴜsᴇʀʙᴏᴛ</b>\n<b>     sᴛᴀᴛᴜs :</b> <code>{}</code>{}\n<b>       ᴇxᴘɪʀᴇᴅ_ᴏɴ :</b> <code>{}</code>\n<b>       ᴅᴄ_ɪᴅ :</b> <code>{}</code>\n<b>       ᴘɪɴɢ_ᴅᴄ :</b> <code>{} ᴍs</code>\n      ᴜᴘᴛɪᴍᴇ :</b> <code>{}</code>"
 
 absen = [
     "**nande?**",
