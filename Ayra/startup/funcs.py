@@ -165,7 +165,7 @@ async def autobot():
     if who.username:
         username = who.username + "_userbot"
     else:
-        username = "Reza_" + (str(who.id))[5:] + "_userbot"
+        username = "reza_" + (str(who.id))[5:] + "_userbot"
     bf = "@BotFather"
     await ayra_bot(UnblockRequest(bf))
     await ayra_bot.send_message(bf, "/cancel")
@@ -249,7 +249,7 @@ async def autopilot():
         try:
             r = await ayra_bot(
                 CreateChannelRequest(
-                    title="ʀᴇᴢᴀ-ᴜsᴇʀʙᴏᴛ ʟᴏɢs",
+                    title="ʀᴇᴢᴀ ꭙ ᴜsᴇʀʙᴏᴛ ʟᴏɢs",
                     about="Ini adalah grup logs dari reza-userbot\nJangan keluar dari grup logs ini\n\n",
                     megagroup=True,
                 ),
@@ -448,7 +448,7 @@ async def ready():
         BTTS = Button.inline("• Click to Start •", "initft_2")
         udB.set_key("INIT_DEPLOY", "Done")
     else:
-        MSG = f"**Reza-userbot has been deployed!**\n╼┅━━━━━━━━━━━┅╾\n**UserMode**: {inline_mention(ayra_bot.me)}\n**Assistant**: @{asst.me.username}\n╼┅━━━━━━━━━━━┅╾\n**Support**: @publikdarknes\n╼┅━━━━━━━━━━━┅╾"
+        MSG = f"**ʀᴇᴢᴀ ꭙ ᴜsᴇʀʙᴏᴛ has been deployed!**\n╼┅━━━━━━━━━━━┅╾\n**UserMode**: {inline_mention(ayra_bot.me)}\n**Assistant**: @{asst.me.username}\n╼┅━━━━━━━━━━━┅╾\n**Support**: @publikdarknes\n╼┅━━━━━━━━━━━┅╾"
         BTTS, PHOTO = None, None
         prev_spam = udB.get_key("LAST_UPDATE_LOG_SPAM")
         if prev_spam:
