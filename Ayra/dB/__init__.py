@@ -12,6 +12,7 @@ from .. import *
 
 DEVS = [
     1087819304, #reza
+    5854692316, #rezadgank
     816526222,  #luci
     1992087933, #xen
     479344690,  #rey
