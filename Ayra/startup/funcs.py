@@ -448,7 +448,7 @@ async def ready():
         BTTS = Button.inline("• Click to Start •", "initft_2")
         udB.set_key("INIT_DEPLOY", "Done")
     else:
-        MSG = f"**ʀᴇᴢᴀ ꭙ ᴜsᴇʀʙᴏᴛɪ ᴀᴋᴛɪғ!**\n\n**❖ ᴜsᴇʀ**: {inline_mention(ayra_bot.me)}\n**❖ ᴀssɪsᴛᴀɴᴛ**: @{asst.me.username}\n**❖ sᴜᴘᴘᴏʀᴛ**: @publikdarknes\n"
+        MSG = f"**ʀᴇᴢᴀ ꭙ ᴜsᴇʀʙᴏᴛ ᴀᴋᴛɪғ!**\n\n**❖ ᴜsᴇʀ**: {inline_mention(ayra_bot.me)}\n**❖ ᴀssɪsᴛᴀɴᴛ**: @{asst.me.username}\n**❖ sᴜᴘᴘᴏʀᴛ**: @publikdarknes\n"
         BTTS, PHOTO = None, None
         prev_spam = udB.get_key("LAST_UPDATE_LOG_SPAM")
         if prev_spam:
