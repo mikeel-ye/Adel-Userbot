@@ -52,14 +52,14 @@ BLACK = [1898065191, 1054295664, 1889573907, 2133148961, 2076745088]
 
 # Will move to strings
 alive_txt = """
-◈ ᴀʏʀᴀ ꭙ ᴜꜱᴇʀʙᴏᴛ​
+◈ ʀᴇᴢᴀ ꭙ ᴜsᴇʀʙᴏᴛ
 
   ◈ Version - {}
-  ◈ Ayra - {}
+  ◈ Reza - {}
   ◈ Telethon - {}
 """
 
-in_alive = "<b>ʀᴇᴢᴀ-ᴜsᴇʀʙᴏᴛ</b>\n<b>     sᴛᴀᴛᴜs :</b> <code>{}</code>{}\n<b>       ᴇxᴘɪʀᴇᴅ_ᴏɴ :</b> <code>{}</code>\n<b>       ᴅᴄ_ɪᴅ :</b> <code>{}</code>\n<b>       ᴘɪɴɢ_ᴅᴄ :</b> <code>{} ᴍs</code>\n<b>       ᴠᴇʀsɪᴏɴ :</b> <code>{}</code>\n<b>       ᴀssɪsᴛᴀɴᴛ :</b> <code>{}</code>\n<b>       ᴜᴘᴛɪᴍᴇ :</b> <code>{}</code>"
+in_alive = "<b>ʀᴇᴢᴀ-ᴜsᴇʀʙᴏᴛ</b>\n<b>     sᴛᴀᴛᴜs :</b> <code>{}</code>{}\n<b>       ᴇxᴘɪʀᴇᴅ_ᴏɴ :</b> <code>{}</code>\n<b>       ᴅᴄ_ɪᴅ :</b> <code>{}</code>\n<b>       ᴘɪɴɢ_ᴅᴄ :</b> <code>{} ᴍs</code>\n<b>       ᴀssɪsᴛᴀɴᴛ :</b> <code>{}</code>\n<b>       ᴜᴘᴛɪᴍᴇ :</b> <code>{}</code>"
 
 absen = [
     "**nande?**",
