@@ -49,7 +49,7 @@ if run_as_module:
         os.remove(file)
 
     HOSTED_ON = where_hosted()
-    LOGS = getLogger("Reza-userbot logs")
+    LOGS = getLogger("ʀᴇᴢᴀ ꭙ ᴜsᴇʀʙᴏᴛ​ ʟᴏɢs")
     TelethonLogger = getLogger("Telethon")
     TelethonLogger.setLevel(INFO)
 
