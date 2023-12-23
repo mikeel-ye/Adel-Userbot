@@ -66,7 +66,7 @@ if sys.argv[0] == "-m":
             validate_session(Var.SESSION, LOGS),
             udB=udB,
             app_version=ayra_version,
-            device_model="Reza-Userbot",
+            device_model="ʀᴇᴢᴀ ꭙ ᴜsᴇʀʙᴏᴛ​",
         )
         ayra_bot.run_in_loop(autobot())
 
@@ -96,10 +96,10 @@ if sys.argv[0] == "-m":
     INLINE_PM = udB.set_key("INLINE_PM", "True")
     PMLOG = udB.set_key("PMLOG", "True")
 else:
-    print("Reza-userbot © @rezadgank")
+    print("ʀᴇᴢᴀ ꭙ ᴜsᴇʀʙᴏᴛ​ © @rezadgank")
 
     from logging import getLogger
 
-    LOGS = getLogger("Reza-Userbot")
+    LOGS = getLogger("ʀᴇᴢᴀ ꭙ ᴜsᴇʀʙᴏᴛ​")
 
     ayra_bot = asst = udB = vcClient = None
