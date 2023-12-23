@@ -95,7 +95,7 @@ async def lol(
             entity, Chat
         ):
             groups += 1
-    status1 = "<b>[founder]</b>" if ayra.sender_id in DEVS else "<b>[owner]</b>"
+    status1 = "<b>[ᴘᴇᴍɪʟɪᴋ]</b>" if ayra.sender_id in DEVS else "<b>[ʙᴜʏᴇʀ]</b>"
     remaining_days = None
     start = time.time()
     await ayra.client(PingRequest(ping_id=0))
@@ -115,7 +115,7 @@ async def lol(
     uptime = time_formatter((time.time() - start_time) * 1000)
     if inline:
         parse = "html"
-        status = "premium"
+        status = "ᴘʀᴇᴍɪᴜᴍ"
         als = in_alive.format(
             status,
             status1,
