@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
-REPO="https://github.com/KojiraReyyAnata/Assistant-Key.git"
-DIR="/root/KojiraReyyAnata"
+REPO="https://github.com/pinxRobtik/reza-userbot.git"
+DIR="/root/pinxRobtik"
 
 spinner(){
     local pid=$!
