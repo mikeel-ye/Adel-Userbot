@@ -31,7 +31,7 @@ clone_repo(){
             fi
             return
     fi
-    echo -e "Cloning Asisstant-Key ${BRANCH}... "
+    echo -e "Cloning reza-userbot ${BRANCH}... "
     git clone -b $BRANCH $REPO $DIR
 }
 
