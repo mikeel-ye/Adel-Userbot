@@ -1,14 +1,11 @@
-FROM nikolaik/python-nodejs:python3.10-nodejs18
+FROM python:3.10
 
-RUN apt-get update -y && apt-get upgrade -y \
-    && apt-get install -y --no-install-recommends ffmpeg neofetch \
-    && apt-get clean \
-    && rm -rf /var/lib/apt/lists/*
+COPY installer.sh .
 
-COPY . /app/
-WORKDIR /app/
+RUN bash installer.sh
 
-RUN git pull
-RUN pip3 install --no-cache-dir --upgrade --requirement requirements.txt
+# changing workdir
+WORKDIR "/root/pinxRobtik"
 
+# start the bot.
 CMD ["bash", "start"]
