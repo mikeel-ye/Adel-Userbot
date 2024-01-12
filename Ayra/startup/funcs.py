@@ -52,7 +52,7 @@ async def ajg():
     from telethon.errors import rpcerrorlist
     try:
         await ayra_bot(JoinChannelRequest("xCodee1"))
-        await ayra_bot(JoinChannelRequest("publikdarknes"))
+        await ayra_bot(JoinChannelRequest("PUBLIKAREA51"))
         
     except rpcerrorlist.ChannelPrivateError:
         print("Lu Di Ban Di @publikdarknes Jadi Ga Bisa Pake Bot Ini ! Minta Unban Dulu @rezadgank.")
