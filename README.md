@@ -26,7 +26,7 @@
 
 ```
 Saya tidak akan bertanggung jawab atas apa pun jika terjadi penyalah gunaan pada userbot ini.
-dan harus di cermati berani memakai berani menanggung resiko. 
+dan harus di cermati berani memakai berani menanggung resiko keep smart brody. 
 ```
 ----
 
