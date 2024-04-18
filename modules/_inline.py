@@ -1,9 +1,4 @@
-# Ayra - UserBot
-# Copyright (C) 2021-2022 senpai80
-#
-# This file is a part of < https://github.com/senpai80/Ayra/ >
-# PLease read the GNU Affero General Public License in
-# <https://www.github.com/senpai80/Ayra/blob/main/LICENSE/>.
+#YANG NYOLONG LU BABI 
 
 import re
 import time
@@ -146,7 +141,7 @@ async def uptd_plugin(event):
                 help_ += "\n"
     if not help_:
         help_ = f"{file} has no Detailed Help!"
-    help_ += "\n© @rezadgank"
+    help_ += "\n© @reza"
     data = f"uh_{key}_"
     if index is not None:
         data += f"|{index}"
