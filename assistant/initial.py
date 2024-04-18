@@ -29,7 +29,7 @@ Beberapa Bantuan Untuk Kamu Pelajari.""",
 -> Kamu dapat berinteraksi dengan seseorang melali fitur chatbot
 
 **• To Know About Updates**
-  - Join @publikdarkness.""",
+  - Join @zasupport.""",
     4: f"""**• Bantuan yang mungkin kamu ingin lihat •**
 
   - `{HNDLR}help`
