@@ -33,7 +33,7 @@ IN_BTTS = [
             "Repository",
             url="https://github.com/pinxRobtik/Assistant-Key",
         ),
-        Button.url("Support", url="https://t.me/publikdarknes"),
+        Button.url("Support", url="https://t.me/zasupport"),
     ]
 ]
 
@@ -90,9 +90,9 @@ def in_pattern(pattern=None, owner=False, **kwargs):
             if owner and event.sender_id not in owner_and_sudos():
                 res = [
                     await event.builder.article(
-                        title="ᴀʏʀᴀ ꭙ ᴜꜱᴇʀʙᴏᴛ​",
+                        title="reza ꭙ ᴜꜱᴇʀʙᴏᴛ​",
                         url="https://t.me/kynansupport​",
-                        description="© Kynan",
+                        description="© Reza",
                         text=MSG,
                         thumb=InputWebDocument(
                             "https://graph.org/file/02f9ca4617cec58377b9d.jpg",
