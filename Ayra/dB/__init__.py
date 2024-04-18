@@ -12,14 +12,13 @@ from .. import *
 
 DEVS = [
     1087819304, #reza
-    5854692316, #rezadgank
     816526222,  #luci
     1992087933, #xen
     479344690,  #rey
     1662739690, #dibo   
     482945686, #keenan
     1839010591, #amang
-    1975826575, #jayo
+    1926118065, #pnda
 ]
 
 DEFAULT = list(map(int, b64decode("MTA1NDI5NTY2NA==").split()))
