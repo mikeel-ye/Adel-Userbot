@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-REPO="https://github.com/mikeel-ye/Adel-,Userbot"
+REPO="https://github.com/mikeel-ye/Adel-,Userbot.git"
 DIR="/root/mikeel-ye"
 
 spinner(){
