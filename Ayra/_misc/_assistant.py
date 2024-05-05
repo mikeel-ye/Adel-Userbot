@@ -21,7 +21,7 @@ from . import append_or_update, owner_and_sudos
 OWNER = ayra_bot.full_name
 
 MSG = f"""
-**Reza-ubot**
+**Adel-Userbot**
 ╼┅━━━━━━━━━━╍━━━━━━━━━━┅╾
 **Owner**: [{OWNER}](tg://user?id={ayra_bot.uid})
 ╼┅━━━━━━━━━━╍━━━━━━━━━━┅╾
@@ -31,9 +31,9 @@ IN_BTTS = [
     [
         Button.url(
             "Repository",
-            url="https://github.com/pinxRobtik/Assistant-Key",
+            url="https://github.com/mikeel-ye/Adel-Userbot",
         ),
-        Button.url("Support", url="https://t.me/zasupport"),
+        Button.url("Support", url="https://t.me/Darensupport"),
     ]
 ]
 
@@ -90,12 +90,12 @@ def in_pattern(pattern=None, owner=False, **kwargs):
             if owner and event.sender_id not in owner_and_sudos():
                 res = [
                     await event.builder.article(
-                        title="reza ꭙ ᴜꜱᴇʀʙᴏᴛ​",
-                        url="https://t.me/kynansupport​",
-                        description="© Reza",
+                        title="Adel Userbot",
+                        url="https://t.me/Darensupport",
+                        description="© Dareen",
                         text=MSG,
                         thumb=InputWebDocument(
-                            "https://graph.org/file/02f9ca4617cec58377b9d.jpg",
+                            "https://telegra.ph/file/2784ee65894aae04a1115.jpg",
                             0,
                             "image/jpeg",
                             [],
