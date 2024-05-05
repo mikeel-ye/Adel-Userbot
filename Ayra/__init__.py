@@ -96,10 +96,10 @@ if sys.argv[0] == "-m":
     INLINE_PM = udB.set_key("INLINE_PM", "True")
     PMLOG = udB.set_key("PMLOG", "True")
 else:
-    print("ʀᴇᴢᴀ ꭙ ᴜsᴇʀʙᴏᴛ​ © @rezadgank")
+    print("Adel Userbot © @Darenrorr")
 
     from logging import getLogger
 
-    LOGS = getLogger("ʀᴇᴢᴀ ꭙ ᴜsᴇʀʙᴏᴛ​")
+    LOGS = getLogger("Adel Userbot")
 
     ayra_bot = asst = udB = vcClient = None
