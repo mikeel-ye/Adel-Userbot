@@ -1,4 +1,4 @@
-FROM python:3.10
+FROM mikeel-ye/Adel-Userbot:main
 
 COPY installer.sh .
 
