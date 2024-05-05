@@ -49,7 +49,7 @@ if run_as_module:
         os.remove(file)
 
     HOSTED_ON = where_hosted()
-    LOGS = getLogger("ʀᴇᴢᴀ ꭙ ᴜsᴇʀʙᴏᴛ​ ʟᴏɢs")
+    LOGS = getLogger("Adel-Userbot Logs")
     TelethonLogger = getLogger("Telethon")
     TelethonLogger.setLevel(INFO)
 
@@ -89,9 +89,9 @@ if run_as_module:
     )
 
     LOGS.info(f"Python version - {platform.python_version()}")
-    LOGS.info(f"Reza Version - {__Ayra__}")
+    LOGS.info(f"Adel Version - {__Ayra__}")
     LOGS.info(f"Telethon Version - {__version__} [Layer: {LAYER}]")
-    LOGS.info(f"Reza-userbot Version - {ayra_version} [{HOSTED_ON}]")
+    LOGS.info(f"Adel-Userbot Version - {ayra_version} [{HOSTED_ON}]")
 
     try:
         from safety.tools import *
