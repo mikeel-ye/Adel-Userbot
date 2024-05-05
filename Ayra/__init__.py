@@ -66,7 +66,7 @@ if sys.argv[0] == "-m":
             validate_session(Var.SESSION, LOGS),
             udB=udB,
             app_version=ayra_version,
-            device_model="ʀᴇᴢᴀ ꭙ ᴜsᴇʀʙᴏᴛ​",
+            device_model="Adel Userbot",
         )
         ayra_bot.run_in_loop(autobot())
 
