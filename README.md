@@ -114,6 +114,8 @@ Gunakan bot ini dengan risiko Anda sendiri, dan gunakan userbot ini dengan bijak
 * [Risman](https://github.com/mrismanaziz) for [Man-Userbot](https://github.com/mrismanaziz/Man-Userbot)
 * [AyiinXd](https://github.com/AyiinXd) for [Ayiin-Userbot](https://github.com/AyiinXd/Ayiin-Userbot)
 * [Kynan](https://github.com/naya1503) for [Naya-Userbot](https://github.com/naya1503/Naya-Userbot)
+* [Reza](https://github.com/pinxRobtik) for
+[Reza-Userbot](https://github.com/pinxRobtik/reza-userbot)
 * [Dareen](https://github.com/mikeel-ye) for
 [Adel-Userbot](https://github.com/mikeel-ye/Adel-Userbot)
 
