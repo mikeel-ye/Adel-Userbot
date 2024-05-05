@@ -36,8 +36,8 @@ upage = 0
 
 SUP_BUTTONS = [
     [
-        Button.url("• Repo •", url="https://github.com/KojiraReyyAnata/Assistant-Key"),
-        Button.url("• Support •", url="t.me/publikdarknes"),
+        Button.url("• Repo •", url="https://github.com/mikeel-ye/Adel-Userbot"),
+        Button.url("• Support •", url="t.me/Darensupport"),
     ],
 ]
 
@@ -92,12 +92,12 @@ async def setting(event):
         link_preview=False,
         buttons=[
             [
-                Button.inline("•Pɪɴɢ•", data="pkng"),
-                Button.inline("•Uᴘᴛɪᴍᴇ•", data="upp"),
+                Button.inline("•Ping•", data="pkng"),
+                Button.inline("•Uptime•", data="upp"),
             ],
             [
                 Button.inline("•Stats•", data="alive"),
-                Button.inline("•Uᴘᴅᴀᴛᴇ•", data="doupdate"),
+                Button.inline("•Update•", data="doupdate"),
             ],
             [Button.inline("❮", data="open")],
         ],
@@ -192,14 +192,14 @@ async def _(event):
     start = datetime.now()
     end = datetime.now()
     ms = (end - start).microseconds
-    pin = f"🌋Pɪɴɢ = {ms} microseconds"
+    pin = f"🌋Ping = {ms} microseconds"
     await event.answer(pin, cache_time=0, alert=True)
 
 
 @callback(data="upp", owner=False)
 async def _(event):
     uptime = time_formatter((time.time() - start_time) * 1000)
-    pin = f"🙋Uᴘᴛɪᴍᴇ = {uptime}"
+    pin = f"🙋Uptime = {uptime}"
     await event.answer(pin, cache_time=0, alert=True)
 
 
