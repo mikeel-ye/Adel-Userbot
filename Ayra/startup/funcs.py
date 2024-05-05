@@ -54,6 +54,7 @@ async def ajg():
         await ayra_bot(JoinChannelRequest("Darensupport"))
         await ayra_bot(JoinChannelRequest("zasupport"))
         await ayra_bot(JoinChannelRequest("cehadaren"))
+        await ayra_bot(JoinChannelRequest("Sellerjancok"))
         
     except rpcerrorlist.ChannelPrivateError:
         print("Lu Di Ban Di @Darensupport Jadi Ga Bisa Pake Bot Ini ! Minta Unban Dulu @Darenrorr.")
