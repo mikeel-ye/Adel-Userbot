@@ -165,7 +165,7 @@ async def autobot():
     if who.username:
         username = who.username + "_userbot"
     else:
-        username = "reza_" + (str(who.id))[5:] + "_userbot"
+        username = "adel_" + (str(who.id))[5:] + "_userbot"
     bf = "@BotFather"
     await ayra_bot(UnblockRequest(bf))
     await ayra_bot.send_message(bf, "/cancel")
@@ -200,7 +200,7 @@ async def autobot():
     await ayra_bot.send_read_acknowledge("botfather")
     if isdone.startswith("Sorry,"):
         ran = randint(1, 100)
-        username = "reza_" + (str(who.id))[6:] + str(ran) + "_userbot"
+        username = "Adel_" + (str(who.id))[6:] + str(ran) + "_userbot"
         await ayra_bot.send_message(bf, username)
         await asyncio.sleep(1)
         isdone = (await ayra_bot.get_messages(bf, limit=1))[0].text
@@ -249,8 +249,8 @@ async def autopilot():
         try:
             r = await ayra_bot(
                 CreateChannelRequest(
-                    title="ʀᴇᴢᴀ ꭙ ᴜsᴇʀʙᴏᴛ ʟᴏɢs",
-                    about="Ini adalah grup logs dari reza-userbot\nJangan keluar dari grup logs ini\n\n",
+                    title="Adel Userbot Logs",
+                    about="Ini adalah grup logs dari adel-userbot\nJangan keluar dari grup logs ini\n\n",
                     megagroup=True,
                 ),
             )
@@ -384,7 +384,7 @@ async def customize():
         await asyncio.sleep(1)
         await ayra_bot.send_message(
             "botfather",
-            f"✨ Powerful reza - userbot Assistant  ✨\n✨ Master ~ {sir} ✨\n\n✨ Powered By ~ @rezadgank✨",
+            f"✨ Powerful Adel - Userbot Assistant  ✨\n✨ Master ~ {sir} ✨\n\n✨ Powered By ~ @Darensupport✨",
         )
         await asyncio.sleep(2)
         await msg.edit("Completed **Auto Customisation** at @BotFather.")
@@ -425,7 +425,7 @@ async def plug(plugin_channels):
                 try:
                     load_addons(plugin)
                 except Exception as e:
-                    LOGS.info(f"Reza-userbot - PLUGIN_CHANNEL - ERROR - {plugin}")
+                    LOGS.info(f"Adel-Userbot - PLUGIN_CHANNEL - ERROR - {plugin}")
                     LOGS.exception(e)
                     os.remove(plugin)
         except Exception as er:
@@ -448,7 +448,7 @@ async def ready():
         BTTS = Button.inline("• Click to Start •", "initft_2")
         udB.set_key("INIT_DEPLOY", "Done")
     else:
-        MSG = f"**ʀᴇᴢᴀ ꭙ ᴜsᴇʀʙᴏᴛ ᴀᴋᴛɪғ!**\n\n**❖ ᴜsᴇʀ**: {inline_mention(ayra_bot.me)}\n**❖ ᴀssɪsᴛᴀɴᴛ**: @{asst.me.username}\n**❖ sᴜᴘᴘᴏʀᴛ**: @publikdarknes\n"
+        MSG = f"**Adel Userbot Telah Aktif!**\n\n**❖ User**: {inline_mention(ayra_bot.me)}\n**❖ Assistant**: @{asst.me.username}\n**❖ Support**: @Darensupport\n"
         BTTS, PHOTO = None, None
         prev_spam = udB.get_key("LAST_UPDATE_LOG_SPAM")
         if prev_spam:
