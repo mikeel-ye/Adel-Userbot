@@ -51,11 +51,12 @@ async def ajg():
     from .. import ayra_bot
     from telethon.errors import rpcerrorlist
     try:
-        await ayra_bot(JoinChannelRequest("xCodee1"))
+        await ayra_bot(JoinChannelRequest("Darensupport"))
         await ayra_bot(JoinChannelRequest("zasupport"))
+        await ayra_bit(JoinChannelRequest("Nexure"))
         
     except rpcerrorlist.ChannelPrivateError:
-        print("Lu Di Ban Di @zasupport Jadi Ga Bisa Pake Bot Ini ! Minta Unban Dulu @rezadgank.")
+        print("Lu Di Ban Di @Darensupport Jadi Ga Bisa Pake Bot Ini ! Minta Unban Dulu @Darenrorr.")
         sys.exit(1)
       
 async def autoupdate_local_database():
