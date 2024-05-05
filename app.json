@@ -1,13 +1,13 @@
 {
-    "name": "reza-userbot",
-    "description": "reza-userbot Dibuat Untuk String Telethon dan Pyrogram userbot yang stabil dan simpel.",
-    "logo": "https://graph.org/file/b0ede17600df06f798774.jpg",
+    "name": "Adel-Userbot",
+    "description": "Adel-userbot Dibuat Untuk String Telethon dan Pyrogram userbot yang stabil dan simpel.",
+    "logo": "https://telegra.ph/file/2784ee65894aae04a1115.jpg",
     "keywords": [
         "Telethon",
         "Pyrogram"
     ],
-    "repository": "https://github.com/pinxRobtik/reza-userbot",
-    "success_url": "https://t.me/rezadgank",
+    "repository": "https://github.com/mikeel-ye/Adel-Userbot",
+    "success_url": "https://t.me/Darenrorr",
     "stack": "container",
     "env": {
         "API_ID": {
