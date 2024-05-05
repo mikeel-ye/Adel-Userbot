@@ -12,8 +12,8 @@
 [![Open Source Love](https://badges.frapsoft.com/os/v2/open-source.png?v=103)](https://github.com/naya1503/Naya-Userbot)
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-Yes-blue)](https://GitHub.com/naya1503/Naya-Userbot/graphs/commit-activity)
 [![CodeQuality](https://img.shields.io/codacy/grade/a723cb464d5a4d25be3152b5d71de82d?color=blue&logo=codacy)](https://app.codacy.com/gh/naya1503/Naya-Userbot/dashboard)
-[![GitHub Forks](https://img.shields.io/github/forks/naya1503/Naya-Userbot?&logo=github)](https://github.com/naya1503/Naya-Userbot/fork)
-[![GitHub Stars](https://img.shields.io/github/stars/naya1503/Naya-Userbot?&logo=github)](https://github.com/naya1503/Naya-Userbot/stargazers)
+[![GitHub Forks](https://img.shields.io/github/forks/mikeel-ye/Adel-Userbot?&logo=github)](https://github.com/mikeel-ye/Adel-Userbot/fork)
+[![GitHub Stars](https://img.shields.io/github/stars/mikeel-ye/Adel-Userbot?&logo=github)](https://github.com/mikeel-ye/Adel-Userbot/stargazers)
 ----
 
 ## Disclaimer
@@ -130,4 +130,4 @@ Gunakan bot ini dengan risiko Anda sendiri, dan gunakan userbot ini dengan bijak
 
 # License
 [![License](https://www.gnu.org/graphics/agplv3-155x51.png)](LICENSE)   
-Naya-Userbot is licensed under [GNU Affero General Public License](https://www.gnu.org/licenses/agpl-3.0.en.html) v3 or later.
+Adel-Userbot is licensed under [GNU Affero General Public License](https://www.gnu.org/licenses/agpl-3.0.en.html) v3 or later.
