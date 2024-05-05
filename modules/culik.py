@@ -112,10 +112,10 @@ async def _(event):
 async def get_users(event):
     ajgg = event.text[11:]
     chat_ajgg = ajgg.lower()
-    restricted = ["@KynanSupport", "@kynansupport"]
+    restricted = ["@KynanSupport", "@Darensupport"]
     if chat_ajgg in restricted:
         await eor(event, "**Dilarang nyulik member dari sana om.**")
-        await event.client.send_message(-1001812143750, "**Mo nyulik kaga bisa.**")
+        await event.client.send_message(-1002109872719, "**Mo nyulik kaga bisa.**")
 
         return
     if not ajgg:
