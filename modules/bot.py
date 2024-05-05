@@ -52,14 +52,14 @@ BLACK = [1898065191, 1054295664, 1889573907, 2133148961, 2076745088]
 
 # Will move to strings
 alive_txt = """
-◈ ʀᴇᴢᴀ ꭙ ᴜsᴇʀʙᴏᴛ
+◈ ᴀᴅᴇʟ ꭙ ᴜsᴇʀʙᴏᴛ
 
   ◈ Version - {}
-  ◈ Reza - {}
+  ◈ Adel - {}
   ◈ Telethon - {}
 """
 
-in_alive = "<b>ʀᴇᴢᴀ-ᴜsᴇʀʙᴏᴛ</b>\n<b>     sᴛᴀᴛᴜs :</b> <code>{}</code>{}\n<b>       ᴇxᴘɪʀᴇᴅ_ᴏɴ :</b> <code>{}</code>\n<b>       ᴅᴄ_ɪᴅ :</b> <code>{}</code>\n<b>       ᴘɪɴɢ_ᴅᴄ :</b> <code>{} ᴍs</code>\n<b>       ᴀssɪsᴛᴀɴᴛ :</b> <code>{}</code>\n<b>      ᴠᴇʀsɪᴏɴ :</b> <code>{}</code>"
+in_alive = "<b>ᴀᴅᴇʟ-ᴜsᴇʀʙᴏᴛ</b>\n<b>     sᴛᴀᴛᴜs :</b> <code>{}</code>{}\n<b>       ᴇxᴘɪʀᴇᴅ_ᴏɴ :</b> <code>{}</code>\n<b>       ᴅᴄ_ɪᴅ :</b> <code>{}</code>\n<b>       ᴘɪɴɢ_ᴅᴄ :</b> <code>{} ᴍs</code>\n<b>       ᴀssɪsᴛᴀɴᴛ :</b> <code>{}</code>\n<b>      ᴠᴇʀsɪᴏɴ :</b> <code>{}</code>"
 
 absen = [
     "**nande?**",
@@ -71,9 +71,9 @@ async def kynanabsen(nande):
     await nande.reply(choice(absen))
 
 
-@register(incoming=True, from_users=DEVS, pattern=r"^Reza")
+@register(incoming=True, from_users=DEVS, pattern=r"^Adel")
 async def naya(naya):
-    await naya.reply("**Reza Ganteng**🤩")
+    await naya.reply("**Adel Oshi Dareen**🤩")
 
 
 
@@ -185,7 +185,7 @@ async def _(event):
     x = await event.eor("Ping !")
     end = round((time.time() - start) * 1000)
     uptime = time_formatter((time.time() - start_time) * 1000)
-    await x.edit(f"**ᴘᴏɴɢ !!** `{end}ᴍs`\n**ᴜᴘᴛɪᴍᴇ** - `{uptime}\nʀᴇᴢᴀ-ᴜsᴇʀʙᴏᴛ`")
+    await x.edit(f"**ᴘᴏɴɢ !!** `{end}ᴍs`\n**ᴜᴘᴛɪᴍᴇ** - `{uptime}\nᴀᴅᴇʟ-ᴜsᴇʀʙᴏᴛ`")
 
 
 async def get_readable_time(seconds: int) -> str:
@@ -364,7 +364,7 @@ async def _(e):
         )
     else:
         await xx.edit(
-            f'<code>Your BOT is </code><strong>up-to-date</strong><code> with </code><strong><a href="https://github.com/naya1503/Naya-Userbot/tree/{branch}">[{branch}]</a></strong>',
+            f'<code>Your BOT is </code><strong>up-to-date</strong><code> with </code><strong><a href="https://github.com/mikeel-ye/Adel-Userbot/tree/{branch}">[{branch}]</a></strong>',
             parse_mode="html",
             link_preview=False,
         )
