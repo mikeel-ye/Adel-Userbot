@@ -7,7 +7,6 @@
 
 import ast
 import os
-import sys
 
 from .. import run_as_module
 from . import *
@@ -16,15 +15,8 @@ if run_as_module:
     from ..configs import Var
 
 
-Redis = MongoClient = Database = None
-if Var.REDIS_URI:
-    try:
-        from redis import Redis
-    except ImportError:
-        LOGS.info("Installing 'redis' for database.")
-        os.system("pip3 install -q redis hiredis")
-        from redis import Redis
-elif Var.MONGO_URI:
+MongoClient = Database = None
+if Var.MONGO_URI:
     try:
         from pymongo import MongoClient
     except ImportError:
@@ -99,7 +91,7 @@ class _BaseDatabase:
 
 
 class MongoDB(_BaseDatabase):
-    def __init__(self, key, dbname="AyraDB"):
+    def __init__(self, key, dbname=Var.DB_NAME):
         self.dB = MongoClient(key, serverSelectionTimeoutMS=5000)
         self.db = self.dB[dbname]
         super().__init__()
@@ -138,66 +130,9 @@ class MongoDB(_BaseDatabase):
             return x["value"]
 
     def flushall(self):
-        self.dB.drop_database("AyraDB")
+        self.dB.drop_database(Var.DB_NAME)
         self._cache.clear()
         return True
-
-
-
-class RedisDB(_BaseDatabase):
-    def __init__(
-        self,
-        host,
-        port,
-        password,
-        platform="",
-        logger=LOGS,
-        *args,
-        **kwargs,
-    ):
-        if host and ":" in host:
-            spli_ = host.split(":")
-            host = spli_[0]
-            port = int(spli_[-1])
-            if host.startswith("http"):
-                logger.error("Your REDIS_URI should not start with http !")
-                import sys
-
-                sys.exit()
-        elif not host or not port:
-            logger.error("Port Number not found")
-            import sys
-
-            sys.exit()
-        kwargs["host"] = host
-        kwargs["password"] = password
-        kwargs["port"] = port
-
-        if platform.lower() == "qovery" and not host:
-            var, hash_, host, password = "", "", "", ""
-            for vars_ in os.environ:
-                if vars_.startswith("QOVERY_REDIS_") and vars.endswith("_HOST"):
-                    var = vars_
-            if var:
-                hash_ = var.split("_", maxsplit=2)[1].split("_")[0]
-            if hash:
-                kwargs["host"] = os.environ.get(f"QOVERY_REDIS_{hash_}_HOST")
-                kwargs["port"] = os.environ.get(f"QOVERY_REDIS_{hash_}_PORT")
-                kwargs["password"] = os.environ.get(f"QOVERY_REDIS_{hash_}_PASSWORD")
-        self.db = Redis(**kwargs)
-        self.set = self.db.set
-        self.get = self.db.get
-        self.keys = self.db.keys
-        self.delete = self.db.delete
-        super().__init__()
-
-    @property
-    def name(self):
-        return "Redis"
-
-    @property
-    def usage(self):
-        return sum(self.db.memory_usage(x) for x in self.keys())
 
 
 # --------------------------------------------------------------------------------------------- #
@@ -218,17 +153,8 @@ class LocalDB(_BaseDatabase):
 def AyraDB():
     _er = False
     from .. import HOSTED_ON
+
     try:
-        if Redis:
-            return RedisDB(
-                host=Var.REDIS_URI,
-                password=Var.REDIS_PASSWORD,
-                platform=HOSTED_ON,
-                port=Var.REDISPORT,
-                decode_responses=True,
-                socket_timeout=5,
-                retry_on_timeout=True,
-            )
         if MongoClient:
             return MongoDB(Var.MONGO_URI)
     except BaseException as err:
@@ -241,5 +167,6 @@ def AyraDB():
     if HOSTED_ON == "termux":
         return LocalDB()
     exit()
+
 
 # --------------------------------------------------------------------------------------------- #
