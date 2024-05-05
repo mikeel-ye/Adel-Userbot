@@ -162,7 +162,7 @@ async def autobot():
     await ayra_bot.start()
     LOGS.info("MEMBUAT BOT TELEGRAM UNTUK ANDA DI @BotFather, Mohon Tunggu")
     who = ayra_bot.me
-    name = who.first_name + " Reza"
+    name = who.first_name + " Assistant Bot"
     if who.username:
         username = who.username + "_userbot"
     else:
