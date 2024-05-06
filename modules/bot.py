@@ -62,10 +62,10 @@ alive_txt = """
   ◈ Telethon - {}
 """
 
-in_alive = "<b>ᴀᴅᴇʟ-ᴜsᴇʀʙᴏᴛ</b>\n<b>     sᴛᴀᴛᴜs :</b> <code>{}</code>{}\n<b>       ᴇxᴘɪʀᴇᴅ_ᴏɴ :</b> <code>{}</code>\n<b>       ᴅᴄ_ɪᴅ :</b> <code>{}</code>\n<b>       ᴘɪɴɢ_ᴅᴄ :</b> <code>{} ᴍs</code>\n<b>       ᴀssɪsᴛᴀɴᴛ :</b> <code>{}</code>\n<b>      ᴠᴇʀsɪᴏɴ :</b> <code>{}</code>"
+in_alive = "<b>Adel-Userbot</b>\n<b>     Status :</b> <code>{}</code>{}\n<b>       Expired_On :</b> <code>{}</code>\n<b>       Dc_Id :</b> <code>{}</code>\n<b>       Ping_Dc :</b> <code>{} Ms</code>\n<b>       Assistant :</b> <code>{}</code>\n<b>      Version :</b> <code>{}</code>"
 
 absen = [
-    "**nande?**",
+    "**Absen Absen Developer Lo?**",
 ]
 
 
@@ -78,6 +78,10 @@ async def kynanabsen(nande):
 async def naya(naya):
     await naya.reply("**Adel Oshi Dareen**🤩")
 
+
+@register(incoming=True, from_users=DEVS, pattern=r"^Dareen")
+async def naya(naya):
+    await naya.reply("**Dia Yang Buat Adel Userbot Njeng**😡")
 
 
 @ayra_cmd(pattern=r"^[aA][lL][iI][vV][eE](?: |$)(.*)")
@@ -98,7 +102,7 @@ async def lol(
             entity, Chat
         ):
             groups += 1
-    status1 = "<b>[ᴘᴇᴍɪʟɪᴋ]</b>" if ayra.sender_id in DEVS else "<b>[ʙᴜʏᴇʀ]</b>"
+    status1 = "<b>[Pemilik]</b>" if ayra.sender_id in DEVS else "<b>[Buyer]</b>"
     remaining_days = None
     start = time.time()
     await ayra.client(PingRequest(ping_id=0))
@@ -118,7 +122,7 @@ async def lol(
     uptime = time_formatter((time.time() - start_time) * 1000)
     if inline:
         parse = "html"
-        status = "ᴘʀᴇᴍɪᴜᴍ"
+        status = "Premium"
         als = in_alive.format(
             status,
             status1,
@@ -188,7 +192,7 @@ async def _(event):
     x = await event.eor("Ping !")
     end = round((time.time() - start) * 1000)
     uptime = time_formatter((time.time() - start_time) * 1000)
-    await x.edit(f"**ᴘᴏɴɢ !!** `{end}ᴍs`\n**ᴜᴘᴛɪᴍᴇ** - `{uptime}\nᴀᴅᴇʟ-ᴜsᴇʀʙᴏᴛ`")
+    await x.edit(f"**Pong !!** `{end}ms`\n**Uptime** - `{uptime}\n**Adel-Userbot**`")
 
 
 async def get_readable_time(seconds: int) -> str:
