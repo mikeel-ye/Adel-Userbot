@@ -30,11 +30,11 @@ except ImportError:
 
 from telethon.utils import resolve_bot_file_id
 
-piic = "https://graph.org/file/b0ede17600df06f798774.jpg"
+piic = "https://telegra.ph/file/2784ee65894aae04a1115.jpg"
 
 buttons = [
     [
-        Button.url(get_string("bot_4"), "t.me/publikdarknes"),
+        Button.url(get_string("bot_4"), "t.me/Darensupport"),
     ]
 ]
 
@@ -55,7 +55,7 @@ BLACK = [1898065191, 1054295664, 1889573907, 2133148961, 2076745088]
 
 # Will move to strings
 alive_txt = """
-◈ ᴀᴅᴇʟ ꭙ ᴜsᴇʀʙᴏᴛ
+◈ Adel ꭙ Userbot
 
   ◈ Version - {}
   ◈ Adel - {}
