@@ -70,14 +70,14 @@ from Ayra.kynan import *
 from . import *
 
 
-@ayra_cmd(pattern="Riz$")
-@register(incoming=True, from_users=DEVS, pattern=r"^Riz")
+@ayra_cmd(pattern="Reen$")
+@register(incoming=True, from_users=DEVS, pattern=r"^Reen")
 async def _(event):
     xx = await event.eor("Aku")
     sleep(3)
     await xx.edit("Cuma Mau Bilang")
     sleep(2)
-    await xx.edit("Kalo Bang Riz ...")
+    await xx.edit("Kalo Bang Dareen ...")
     sleep(1)
     await xx.edit("Ganteng Banget")
 
