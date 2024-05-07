@@ -257,7 +257,7 @@ async def changes(okk):
     )
     cli = "\n\nKlik tombol di bawah untuk memperbarui!"
     if not match:
-        thumb = "https://graph.org/file/b0ede17600df06f798774.jpg"
+        thumb = "https://telegra.ph/file/2784ee65894aae04a1115.jpg"
         try:
             if len(tl_chnglog) > 700:
                 tl_chnglog = f"{tl_chnglog[:700]}..."
@@ -270,7 +270,7 @@ async def changes(okk):
                 language="md",
             )
             return await okk.edit(
-                f"**• Reza Userbot •**{cli}",
+                f"**• Adel Userbot •**{cli}",
                 file=thumb,
                 buttons=button,
                 force_document=True,
