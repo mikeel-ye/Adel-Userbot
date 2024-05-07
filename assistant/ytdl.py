@@ -44,9 +44,9 @@ async def _(event):
         fuk = event.builder.article(
             title="Search Something",
             thumb=wb(ytt, 0, "image/jpeg", []),
-            text="**YᴏᴜTᴜʙᴇ Sᴇᴀʀᴄʜ**\n\nYou didn't search anything",
+            text="**Youtube Search**\n\nYou didn't search anything",
             buttons=Button.switch_inline(
-                "Sᴇᴀʀᴄʜ Aɢᴀɪɴ",
+                "Search Again",
                 query="yt ",
                 same_peer=True,
             ),
