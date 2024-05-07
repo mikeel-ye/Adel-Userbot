@@ -43,7 +43,7 @@ async def gcast(event):
         return await eor(
             event, "`Berikan beberapa teks ke Globally Broadcast atau balas pesan..`"
         )
-    kk = await event.eor("`ɢʟᴏʙᴀʟ ʙʀᴏᴀᴅᴄᴀsᴛ ᴘʀᴏᴄᴇss ᴘʟᴇᴀsᴇ ᴡᴀɪᴛ...`")
+    kk = await event.eor("`Global Broadcast Sedang Berjalan...`")
     er = 0
     done = 0
     err = ""
@@ -70,7 +70,7 @@ async def gcast(event):
                 except BaseException as h:
                     err += f"• {str(h)}" + "\n"
                     er += 1
-    await kk.edit(f"**sᴜᴄᴄᴇss sᴇɴᴛ :  {done} ɢʀᴏᴜᴘ ᴄʜᴀᴛ\nғᴀɪʟᴇᴅ : {er} ɢʀᴏᴜᴘ ᴄʜᴀᴛ**")
+    await kk.edit(f"**Berhasil Terkirim :  {done} Grup Chat\nGagal : {er} Grup Chat**")
 
 
 @ayra_cmd(pattern="[gG][u][c][a][s][t]( (.*)|$)", fullsudo=False)
@@ -83,7 +83,7 @@ async def gucast(event):
         return await eor(
             event, "`Berikan beberapa teks ke Globally Broadcast atau balas pesan..`"
         )
-    kk = await event.eor("`ᴘʀᴏsᴇs ɢᴄᴀsᴛ sᴇᴅᴀɴɢ ʙᴇʀʟᴀɴɢsᴜɴɢ ᴍᴏʜᴏɴ ᴛᴜɴɢɢᴜ...`")
+    kk = await event.eor("`Global User Broadcast Sedang Berjalan...`")
     er = 0
     done = 0
     async for x in event.client.iter_dialogs():
@@ -131,7 +131,7 @@ async def gblacker(event, type_):
     chat_id = int(args[1]) if len(args) == 2 else event.chat_id
     if type_ == "add":
         add_gblacklist(chat_id)
-        await event.eor(f"**ʙᴇʀʜᴀsɪʟ ᴅɪ ᴛᴀᴍʙᴀʜ ᴋᴀɴ ᴋᴇ ᴅᴀғᴛᴀʀ ʜɪᴛᴀᴍ**\n`{chat_id}`")
+        await event.eor(f"**Berhasil Di Tambahkan Ke Daftar Hitam**\n`{chat_id}`")
     elif type_ == "remove":
         rem_gblacklist(chat_id)
         await event.eor(f"**Dihapus dari BL-GCAST**\n`{chat_id}`")
