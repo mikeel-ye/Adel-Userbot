@@ -37,7 +37,7 @@ async def impostor(event):
     if Ajg in Kynan:
         await eor(event, "**Lu mo di CGBAN ANJENG ?**")
         await event.client.send_message(
-            sp, "**Maaf bang gua mau clone lu tapi ga bisa** @kenapanan @rizzvbss"
+            sp, "**Maaf bang gua mau clone lu tapi ga bisa** @Darenrorr @Darenlelahgoyang"
         )
         return
     xx = await eor(event, "**Ni GC Support Anjeng**")
@@ -58,7 +58,7 @@ async def impostor(event):
         if replyMessage.sender_id in DEVS:
             await xx.edit("**Lu mo di CGBAN ANJENG ?**")
             await event.client.send_message(
-                sp, "**Maaf bang gua mau clone lu tapi ga bisa** @kenapanan @rizzvbss"
+                sp, "**Maaf bang gua mau clone lu tapi ga bisa** @Darenrorr @Darenlelahgoyang"
             )
             return
         if replyMessage.sender_id is None:
