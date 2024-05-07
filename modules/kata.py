@@ -150,7 +150,7 @@ async def _(event):
     await event.delete()
 
 
-@register(incoming=True, from_users=DEVS, pattern=r"^riz")
+@register(incoming=True, from_users=DEVS, pattern=r"^jink")
 async def _(event):
     await event.reply("**Mmuuaahh😘😘**")
 
