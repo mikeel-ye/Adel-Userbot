@@ -43,7 +43,7 @@ async def gcast(event):
         return await eor(
             event, "`Berikan beberapa teks ke Globally Broadcast atau balas pesan..`"
         )
-    kk = await event.eor("`Global Broadcast Sedang Berjalan...`")
+    kk = await event.eor("`Sebentar Kalo Limit Jangan Salahin Dareen Ya Kontol...`")
     er = 0
     done = 0
     err = ""
@@ -83,7 +83,7 @@ async def gucast(event):
         return await eor(
             event, "`Berikan beberapa teks ke Globally Broadcast atau balas pesan..`"
         )
-    kk = await event.eor("`Global User Broadcast Sedang Berjalan...`")
+    kk = await event.eor("`Sebentar Kalo Limit Jangan Salahin Dareen Ya Kontol...`")
     er = 0
     done = 0
     async for x in event.client.iter_dialogs():
