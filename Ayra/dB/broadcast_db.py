@@ -34,5 +34,5 @@ def rem_channel(id_):
 
 
 async def get_vars(user_id, vars_name, query="vars"):
-    result = await varsdb.find_one({"_id": user_id})
+    udB.set_key({"_id": user_id})
     return result.get(query, {}).get(vars_name, None) if result else None
