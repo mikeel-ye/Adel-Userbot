@@ -7,8 +7,6 @@
 
 from .. import udB
 
-varsdb = mongodb.varsX
-
 
 def get_channels():  # Returns List
     return udB.get_key("BROADCAST") or []
