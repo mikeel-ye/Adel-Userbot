@@ -5,7 +5,7 @@
 # PLease read the GNU Affero General Public License in
 # <https://www.github.com/senpai80/Ayra/blob/main/LICENSE/>.
 
-from .. import udB
+from .. import udB, varsdb
 
 
 def get_channels():  # Returns List
