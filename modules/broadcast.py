@@ -76,8 +76,7 @@ async def gcast(event):
                 except BaseException as h:
                     err += f"• {str(h)}" + "\n"
                     er += 1
-    await kk.edit(f"**<b><emoji id={emot_ceklis}>✅️</emoji>Berhasil Terkirim :  {done} Grup Chat
-<b><emoji id={emot_gagal}>❎️</emoji>Gagal : {er} Grup Chat**")
+    await kk.edit(f"**<b><emoji id={emot_ceklis}>✅️</emoji>Berhasil Terkirim :  {done} Grup Chat\n<b><emoji id={emot_gagal}>❎️</emoji>Gagal : {er} Grup Chat**")
 
 
 @ayra_cmd(pattern="[gG][u][c][a][s][t]( (.*)|$)", fullsudo=False)
