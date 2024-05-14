@@ -1,3 +1,4 @@
+
 # Ayra - UserBot
 # Copyright (C) 2021-2022 senpai80
 #
@@ -36,9 +37,9 @@ from ._inline import something
 
 @ayra_cmd(pattern="[gG][c][a][s][t]( (.*)|$)", fullsudo=False)
 async def gcast(event):
-    emot_1 = await get_vars(client.me.id, "EMOJI_PROSES")
-    emot_2 = await get_vars(client.me.id, "EMOJI_CEKLIS")
-    emot_3 = await get_vars(client.me.id, "EMOJI_GAGAL")
+    emot_1 = await get_vars(Client.me.id, "EMOJI_PROSES")
+    emot_2 = await get_vars(Client.me.id, "EMOJI_CEKLIS")
+    emot_3 = await get_vars(Client.me.id, "EMOJI_GAGAL")
     emot_proses = emot_1 if emot_1 else "6113844439292054570"
     emot_ceklis = emot_2 if emot_2 else "6113647841459047673"
     emot_gagal = emot_3 if emot_3 else "6113872536968104754"
