@@ -33,6 +33,6 @@ def rem_channel(id_):
     return False
 
 
-async def get_vars(user_id, vars_name, query="vars"):
+def get_vars(user_id, vars_name, query="vars"):
     result = await varsdb.find_one({"_id": user_id})
     return result.get(query, {}).get(vars_name, None) if result else None
