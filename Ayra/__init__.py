@@ -40,6 +40,7 @@ if sys.argv[0] == "-m":
     _ignore_eval = []
 
     udB = AyraDB()
+    varsdb = mongodb.varsX
     update_envs()
 
     LOGS.info(f"Connecting to {udB.name}...")
