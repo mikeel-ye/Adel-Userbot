@@ -26,6 +26,7 @@ import asyncio
 
 from Ayra.dB import DEVS
 from Ayra.dB.gcast_blacklist_db import add_gblacklist, list_bl, rem_gblacklist
+from Ayra.dB.broadcast_db import get_vars
 from Ayra.fns.tools import create_tl_btn, format_btn, get_msg_button
 from telethon.errors.rpcerrorlist import FloodWaitError
 
