@@ -36,6 +36,12 @@ from ._inline import something
 
 
 @ayra_cmd(pattern="[gG][c][a][s][t]( (.*)|$)", fullsudo=False)
+    emot_1 = await get_vars(ayra_bot.me.id, "EMOJI_PROSES")
+    emot_2 = await get_vars(ayra_bot.me.id, "EMOJI_CEKLIS")
+    emot_3 = await get_vars(ayra_bot.me.id, "EMOJI_GAGAL")
+    emot_proses = emot_1 if emot_1 else "6113844439292054570"
+    emot_ceklis = emot_2 if emot_2 else "6113647841459047673"
+    emot_gagal = emot_3 if emot_3 else "6113872536968104754"
 async def gcast(event):
     if xx := event.pattern_match.group(1):
         msg = xx
@@ -45,7 +51,7 @@ async def gcast(event):
         return await eor(
             event, "`Berikan beberapa teks ke Globally Broadcast atau balas pesan..`"
         )
-    kk = await event.eor("`Sebentar Kalo Limit Jangan Salahin Dareen Ya Kontol...`")
+    kk = await event.eor("<b><emoji id={emoji_proses}>⏳</emoji>Sebentar Kalo Limit Jangan Salahin Dareen Ya Kontol...</b>")
     er = 0
     done = 0
     err = ""
@@ -72,7 +78,7 @@ async def gcast(event):
                 except BaseException as h:
                     err += f"• {str(h)}" + "\n"
                     er += 1
-    await kk.edit(f"**Berhasil Terkirim :  {done} Grup Chat\nGagal Di : {er} Grup Chat**")
+    await kk.edit(f"**<b><emoji id={emot_ceklis}>✅️</emoji>Berhasil Terkirim :  {done} Grup Chat\n<b><emoji id={emot_gagal}>❎️</emoji>Gagal Di : {er} Grup Chat**")
 
 
 @ayra_cmd(pattern="[gG][u][c][a][s][t]( (.*)|$)", fullsudo=False)
