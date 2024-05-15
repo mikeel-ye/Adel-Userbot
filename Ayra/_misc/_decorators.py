@@ -149,7 +149,7 @@ def ayra_cmd(
                     udB.get_key("LOG_CHANNEL"),
                     "Session String expired, create new session from 👇",
                     buttons=[
-                        Button.url("Bot", "t.me/NayaStringBot?start="),
+                        Button.url("Bot", "t.me/Dareenstringbot?start="),
                     ],
                 )
                 sys.exit()
@@ -161,12 +161,12 @@ def ayra_cmd(
                 LOGS.exception(e)
                 date = strftime("%Y-%m-%d %H:%M:%S", gmtime())
                 naam = get_display_name(chat)
-                ftext = "**Ayra Client Error:** `Forward this to` @kynansupport\n\n"
-                ftext += "**Ayra Version:** `" + str(pyver)
+                ftext = "**Adel Client Error:** `Forward this to` @kynansupport\n\n"
+                ftext += "**Adel Version:** `" + str(pyver)
                 ftext += "`\n**Userbot Version:** `" + str(ayra_ver)
                 ftext += "`\n**Telethon Version:** `" + str(telever)
                 ftext += f"`\n**Hosted At:** `{HOSTED_ON}`\n\n"
-                ftext += "--------START AYRA CRASH LOG--------"
+                ftext += "--------START ADEL CRASH LOG--------"
                 ftext += "\n**Date:** `" + date
                 ftext += "`\n**Group:** `" + str(ay.chat_id) + "` " + str(naam)
                 ftext += "\n**Sender ID:** `" + str(ay.sender_id)
@@ -177,7 +177,7 @@ def ayra_cmd(
                 ftext += str(format_exc())
                 ftext += "`\n\n**Error text:**`\n"
                 ftext += str(sys.exc_info()[1])
-                ftext += "`\n\n--------END AYRA CRASH LOG--------"
+                ftext += "`\n\n--------END ADEL CRASH LOG--------"
                 ftext += "\n\n\n**Last 5 commits:**`\n"
 
                 stdout, stderr = await bash('git log --pretty=format:"%an: %s" -5')
@@ -191,7 +191,7 @@ def ayra_cmd(
                         error_log = await asst.send_file(
                             udB.get_key("LOG_CHANNEL"),
                             file,
-                            caption="**Ayra Client Error:** `Forward this to` @kynansupport\n\n",
+                            caption="**Adel Client Error:** `Forward this to` @Darensupport\n\n",
                         )
                 else:
                     error_log = await asst.send_message(
