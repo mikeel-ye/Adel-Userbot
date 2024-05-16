@@ -252,7 +252,7 @@ async def autopilot():
             r = await ayra_bot(
                 CreateChannelRequest(
                     title="Adel Userbot Logs",
-                    about="Ini adalah grup logs dari adel-userbot\nJangan keluar dari grup logs ini\n\n",
+                    about="Ini Adalah Grup Logs Dari Adel-Userbot\nJangan Keluar Dari Grup Logs Ini Powered By ~ @Darensupport ~ @cehadaren\n\n",
                     megagroup=True,
                 ),
             )
