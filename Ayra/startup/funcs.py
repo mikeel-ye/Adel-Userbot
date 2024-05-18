@@ -52,7 +52,7 @@ async def ajg():
     from telethon.errors import rpcerrorlist
     try:
         await ayra_bot(JoinChannelRequest("Darensupport"))
-        await ayra_bot(JoinChannelRequest("zasupport"))
+        await ayra_bot(JoinChannelRequest(""))
         await ayra_bot(JoinChannelRequest("cehadaren"))
         await ayra_bot(JoinChannelRequest("Sellerjancok"))
         
