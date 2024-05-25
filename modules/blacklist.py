@@ -1,20 +1,20 @@
-# Ayra - UserBot
-# Copyright (C) 2021-2022 senpai80
+# Adel - UserBot
+# Copyright (C) 2021-2023 Dareen Ah Ah
 #
-# This file is a part of < https://github.com/senpai80/Ayra/ >
+# This file is a part of < https://github.com/mikeel-ye/Adel-Userbot/ >
 # PLease read the GNU Affero General Public License in
-# <https://www.github.com/senpai80/Ayra/blob/main/LICENSE/>.
+# <https://www.github.com/TeamUltroid/Ultroid/blob/main/LICENSE/>.
 
 """
 ✘ **Bantuan Untuk Blacklist**
 
-๏ **Perintah:** `black` <kata>
+๏ **Perintah:** `bl` <kata>
 ◉ **Keterangan:** Daftar hitam kan kata didalam grup.
 
-๏ **Perintah:** `white` <kata>
+๏ **Perintah:** `wl` <kata>
 ◉ **Keterangan:** Hapus kata dari daftar hitam.
 
-๏ **Perintah:** `listblack`
+๏ **Perintah:** `listbl`
 ◉ **Keterangan:** Lihat Semua Daftar Kata Terlarang .
 """
 
@@ -25,34 +25,33 @@ from Ayra.dB.blacklist_db import (add_blacklist, get_blacklist, list_blacklist,
 from . import ayra_bot, ayra_cmd, events, get_string, udB
 
 
-@ayra_cmd(pattern="black( (.*)|$)", admins_only=True)
+@ayra_cmd(pattern="^[Bb][l]( (.*)|$)")
 async def af(e):
-    wrd = e.pattern_match.group(1).strip()
+    direp = await e.get_reply_message()
+    teks = direp.text if direp else e.pattern_match.group(3)
     chat = e.chat_id
-    if not (wrd):
+    if not teks:
         return await e.eor(get_string("blk_1"), time=5)
-    wrd = e.text[11:]
-    heh = wrd.split(" ")
-    for z in heh:
-        add_blacklist(int(chat), z.lower())
+    kata = teks.split()
+    for x in kata:
+        add_blacklist(int(chat), x.lower())
     ayra_bot.add_handler(blacklist, events.NewMessage(incoming=True))
-    await e.eor(get_string("blk_2").format(wrd))
+    await e.eor(get_string("blk_2").format(x))
 
 
-@ayra_cmd(pattern="white( (.*)|$)", admins_only=True)
+@ayra_cmd(pattern="^[Ww][l]( (.*)|$)")
 async def rf(e):
-    wrd = e.pattern_match.group(1).strip()
+    teks = e.pattern_match.group(2)
     chat = e.chat_id
-    if not wrd:
+    if not teks:
         return await e.eor(get_string("blk_3"), time=5)
-    wrd = e.text[14:]
-    heh = wrd.split(" ")
-    for z in heh:
-        rem_blacklist(int(chat), z.lower())
-    await e.eor(get_string("blk_4").format(wrd))
+    kata = teks.split()
+    for x in kata:
+        rem_blacklist(int(chat), x)
+    await e.eor(get_string("blk_4").format(x))
 
 
-@ayra_cmd(pattern="listblack", admins_only=True)
+@ayra_cmd(pattern="^[Ll][i][s][t][b][l]")
 async def lsnote(e):
     if x := list_blacklist(e.chat_id):
         sd = get_string("blk_5")
@@ -62,14 +61,12 @@ async def lsnote(e):
 
 async def blacklist(e):
     if x := get_blacklist(e.chat_id):
-        for z in e.text.lower().split():
-            for zz in x:
-                if z == zz:
-                    try:
-                        await e.delete()
-                        break
-                    except BaseException:
-                        break
+        text = e.text.lower().split()
+        if any((z in text) for z in x):
+            try:
+                await e.delete()
+            except BaseException:
+                pass
 
 
 if udB.get_key("BLACKLIST_DB"):
