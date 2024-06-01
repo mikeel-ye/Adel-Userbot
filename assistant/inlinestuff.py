@@ -40,4 +40,4 @@ async def repo(e):
             buttons=SUP_BUTTONS,
         ),
     ]
-    await e.answer(res, switch_pm="Reza-Userbot", switch_pm_param="start")
+    await e.answer(res, switch_pm="Adel-Userbot", switch_pm_param="start")
