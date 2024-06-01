@@ -12,15 +12,16 @@ from .. import *
 
 DEVS = [
     1087819304, #reza
-    816526222,  #luci
+    7148043945,  #luci
     1992087933, #xen
     6953052196, #Dareen
     7043537972, #rahasia
-    482945686, #keenan
+    1054295664, #keenan
     1839010591, #amang
     1825884290, #kentung
     5063062493, #keju
     1860375797, #uputanjing
+    1964437366, #tomi
     1727071190, #pondermmk
 ]
 
