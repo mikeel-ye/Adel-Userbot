@@ -216,7 +216,7 @@ async def chatBot_replies(e):
 
 @ayra_bot.on(events.Raw(types.UpdateUserName))
 async def uname_change(e):
-    await uname_stuff(e.user_id, e.username, e.first_name)
+    await uname_stuff(e.user_id, e.usernames, e.first_name)
 
 
 async def uname_stuff(id, uname, name):
