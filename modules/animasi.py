@@ -18,6 +18,9 @@
 
 ๏ **Perintah:** `fucek`
 ◉ **Keterangan:** Coba sendiri.
+
+๏ **Perintah:** `ror`
+◉ **Keterangan:** Coba sendiri.
 """
 
 from . import *
