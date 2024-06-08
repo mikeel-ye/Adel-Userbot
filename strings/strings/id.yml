@@ -187,7 +187,7 @@ afk_5: "❏ **#AFK**.\n\n**Karena:** `{}`"
 afk_6: "❏ Dadah Gua AFK dulu."
 
 # bot
-bot_1: "Ayra-Userbot"
+bot_1: "Adel-Userbot"
 bot_2: "Stats"
 bot_3: "Repo"
 bot_4: "Support"
@@ -219,7 +219,7 @@ bd_8: "`Menghapus...`"
 bd_9: "Channel sudah dihapus dari database."
 
 # calculator
-calc_1: "• Ayra Inline Calculator •"
+calc_1: "• Adel Inline Calculator •"
 calc_2: "Buka Kalkulator Lagi"
 
 # channel hacks
