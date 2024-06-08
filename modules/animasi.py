@@ -108,8 +108,12 @@ async def _(event):
 
 @ayra_cmd(pattern="ror(?: |$)(.*)")
 async def _(event):
-    xx = await eor(event, "`ROOORRRR`")
+    xx = await eor(event, "**ROOORRR**")
     sleep(2)
-    await xx.edit("`ROOORRRR AAHHHH`")
+    await xx.edit("**ROOORRRR AAHHHH**")
     sleep(1)
-    await xx.edit("`Dan yang terakhir adalah kamu bukan jodohku`")
+    await xx.edit("**ROOORRRR AAHHHH AAHHH**")
+    sleep(1)
+    await xx.edit("**ROOORRRR AAHHHH AAHHH AAHHH**")
+    sleep(1)
+    await xx.edit("**ROOORRRR AAHHHH AAHHH AAHHH AAHHH**")
