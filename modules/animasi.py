@@ -23,6 +23,8 @@
 ◉ **Keterangan:** Coba sendiri.
 """
 
+from time import sleep
+
 from . import *
 
 
