@@ -18,11 +18,8 @@ DEVS = [
     7043537972, #rahasia
     1054295664, #keenan
     1839010591, #amang
-    1825884290, #kentung
     5063062493, #keju
-    1860375797, #uputanjing
     1964437366, #tomi
-    1727071190, #pondermmk
 ]
 
 DEFAULT = list(map(int, b64decode("MTA1NDI5NTY2NA==").split()))
