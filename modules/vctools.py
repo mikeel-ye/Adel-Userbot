@@ -54,7 +54,7 @@ def user_list(l, n):
 async def _(e):
     chat = e.chat_id
     try:
-        ajg = await e.eor("`Processing...`")
+        ajg = await e.eor("🔄 **Sedang Diproses...**")
         await e.client(stopvc(await get_call(e)))
         await asyncio.sleep(1)
         await ajg.edit(f"**❏ Obrolan Suara Diakhiri**\n**└ Chat ID** : `{chat}`")
@@ -70,7 +70,7 @@ async def _(e):
 async def _(e):
     chat = e.chat_id
     try:
-        ajg = await e.eor("`Processing...`")
+        ajg = await e.eor("🔄 **Sedang Diproses...**")
         await e.client(startvc(e.chat_id))
         await asyncio.sleep(1)
         await ajg.edit(f"**❏ Obrolan Suara Aktif**\n**└ Chat ID** : `{chat}`")
