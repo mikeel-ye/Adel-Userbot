@@ -318,7 +318,7 @@ async def autopilot():
                 LOGS.exception(er)
     if isinstance(chat.photo, ChatPhotoEmpty):
         photo = await download_file(
-            "https://telegra.ph/file/2784ee65894aae04a1115.jpg", "logo.jpg"
+            "https://graph.org/file/edf24b04b9b8f86ecacf0.jpg", "logo.jpg"
         )
         ll = await ayra_bot.upload_file(photo)
         try:
@@ -349,7 +349,7 @@ async def customize():
             sir = f"@{ayra_bot.me.username}"
         file = random.choice(
             [
-                "https://telegra.ph/file/2784ee65894aae04a1115.jpg",
+                "https://graph.org/file/edf24b04b9b8f86ecacf0.jpg",
                 "resources/extras/logo.jpg",
             ]
         )
