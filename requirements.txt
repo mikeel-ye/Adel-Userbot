@@ -40,3 +40,4 @@ Markdown
 ffmpeg-python 
 mediainfo 
 pymediainfo
+git+https://github.com/naya1503/mypyrogram@dev
